@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "the one where Courtney writes stuff for the first time on this site"
+title:  "the one where courtney writes stuff for the first time in ages"
 date:   2015-01-06 19:06:34
 categories: drivel
 ---
