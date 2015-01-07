@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "the one where courtney writes stuff for the first time in ages"
+title:  "the one where Courtney writes stuff for the first time on this site"
 date:   2015-01-06 19:06:34
 categories: drivel
 ---
@@ -11,7 +11,7 @@ This here is, shall we say, an idea-bomb-testing site for me. I blogged a ton wh
 
 Okay. Whatever. I graduated from Hampshire College in 2011, still not knowing what to do with my life. I bumbled through college not *really* knowing what I was going to do, but I studied linguistics and animal behavior, believing that these things were close to whatever my calling was.
 
-A year and a lot more bumbling later, it became clear. Before this random day, I would have pffft at those so-called *eureka moments*, but I had one of those. I should be a Speech & Language Pathologist ([What'th that guyth?](http://en.wikipedia.org/wiki/Speech-language_pathology#The_Speech-Language_Pathology_vocation))! Behavior and linguistics come together neatly in this field, and there is a lot more going on, on top of that.
+A year and a lot more bumbling later, it became clear. Before this random day, I would have pffft at those so-called *eureka moments*, but I had one of those. I should be a Speech & Language Pathologist ([What'th that guyth?] (http://en.wikipedia.org/wiki/Speech-language_pathology#The_Speech-Language_Pathology_vocation))! Behavior and linguistics come together neatly in this field, and there is a lot more going on, on top of that.
 
 Uh, now what?
 
