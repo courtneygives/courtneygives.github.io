@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "the one where courtney says something clever about this being the first post"
-date:   2015-01-06 19:06:34
+title:  "stuttering is a mess of a complicated thing"
+date:   2015-01-07 17:00:34
 categories: drivel
 ---
 
