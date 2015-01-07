@@ -1,25 +1,26 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "the one where Courtney writes stuff for the first time on this site"
 date:   2015-01-06 19:06:34
-categories: jekyll update
+categories: drivel
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+To all of the none of you reading this: I'm Courtney.
 
-Jekyll also offers powerful support for code snippets:
+This here is, shall we say, an idea-bomb-testing site for me. I blogged a ton when I was a kid, then I became old, fat, and lazy. Mostly just lazy. [DAMN THE MILLENIALS!](http://www.slate.com/articles/technology/future_tense/2014/12/you_don_t_hate_millennials_you_hate_21st_century_technology.html)
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Okay. Whatever. I graduated from Hampshire College in 2011, still not knowing what to do with my life. I bumbled through college not *really* knowing what I was going to do, but I studied linguistics and animal behavior, believing that these things were close to whatever my calling was.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+A year and a lot more bumbling later, it became clear. Before this random day, I would have pffft at those so-called *eureka moments*, but I had one of those. I should be a Speech & Language Pathologist ([What'th that guyth?] (http://en.wikipedia.org/wiki/Speech-language_pathology#The_Speech-Language_Pathology_vocation))! Behavior and linguistics come together neatly in this field, and there is a lot more going on, on top of that.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Uh, now what?
+
+I have been taking a lot of classes to fulfill prerequisites so that I can *maybe* get into graduate school. I am just about finished applying to three schools, but the competition may be fairly serious. I try not to dwell on it.
+
+Posts will be on topics of interest to languagey people, but also to the rest of the muggles out there.
+
+I will try to get up my courage and post on here in the event that I'm not accepted anywhere this year. It's important to keep writing and splashing around in the water so that I *do* eventually get accepted.
+
+
+
+
