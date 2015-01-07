@@ -1,13 +1,11 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
 
-blAHÍ
+[*Huh?*](http://www.plosone.org/article/info:doi/10.1371/journal.pone.0078273) -- the universal word-like utterance that shall be understood anywhere in the world to communicate confusion. And what is the Internet, if not confusing?
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm Courtney. I want to be a Language Pathologist. Yes, *language*. How should I do that, internet?
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I live in Minneapolis, Minnesota with my husband, [Alex](http://alex.ives.mn), and two silleh kittehs.
