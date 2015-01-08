@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "the monster study"
-date:   2015-01-07 17:00:34
+date:   2015-01-08 14:00:34
 categories: stuttering
 ---
 **Wendell Johnson, one of the original speech pathologists, theorized that stuttering *originates in the ear of the listener.* The Monster Study was designed to test that theory, so called for a good reason.**
