@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "operation: new plan"
+date:   2015-06-02 13:00:00
+categories: drivel
+---
+
+**Shocker:** I didn't get accepted to any of the graduate schools I applied to.
+
+As upsetting as that has been, I take (a little) comfort in knowing that I'm very much not alone, here.
+
+Resilience and adaptability are my specialties. Still, I have to admit feeling destroyed, not having really believed this would happen. I applied to three speech-language pathology programs... all of which have a less than 20% acceptance rate.
+
+**So, what now, genius?**
+
+Well... Not to give anyone whiplash here, but, I am learning to program.
+
+**Oh, come on... really?**
+
+Yeah! I just... need to do something else for a while. I need to pay off some student loans, and feel like a useful person.
+
+My husband is a software engineer, and I've always gotten along with his type. He and our friends have been encouraging me to try picking up a coding language like *Clojure* or *Ruby* and have said I could really be good at it because my eyes don't entirely glaze over when these guys start talking about their jobs.
+
+***Bonus***
+
+The world of speech-language therapy is in dire need of people who know how to code (and I'm not sure they realize that, yet).
+
+**How does one just *learn to code*?**
+
+Ah! There is some good stuff out there for those who wish to start coding. I have a decent background in nonspecific tech-savviness, but for all tents and purses, I'm a beginner. The following are really useful sites to check out:
+
+**[Code Combat](http://codecombat.com/)**
+![](http://codecombat.com/images/pages/about/coco_comic.jpg)
+
+
+**[Code Academy](http://www.codecademy.com)**
+![](http://cdn-production.codecademy.com/assets/logo/logo--dark-blue-bf11002ce1caecdfb9fec8d3286b8a8d.svg)
+
+
+**[Udacity](http://www.udacity.com)**
+![](https://s3.amazonaws.com/content.udacity-data.com/site-svgs/student_home/shaded_IPND.svg)
+
+
+
