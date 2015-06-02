@@ -29,7 +29,7 @@ The world of speech-language therapy is in dire need of people who know how to c
 
 Ah! There is some good stuff out there for those who wish to start coding. I have a decent background in nonspecific tech-savviness, but for all tents and purses, I'm a beginner. The following are really useful sites to check out:
 
-##Code Combat
+###Code Combat
 [![Code Combat][2]][1]
 
   [1]: http://codecombat.com/
@@ -38,7 +38,7 @@ Code combat is a game that teaches code, and it's very fun. You have a choice of
 
 ![](file:///Users/courtney/Desktop/coco_comic.jpg)
   
-##Code Academy
+###Code Academy
 
 [![Code Academy][3]][4]
 
@@ -47,7 +47,7 @@ Code combat is a game that teaches code, and it's very fun. You have a choice of
 
 Code Academy is a well designed source for interactive tutorials that are engaging and very helpful. They have too many tutorials to list here, so, they probably have the discipline you're looking to learn about.
  
-##Udacity
+###Udacity
 
 [![Udacity][5]][6]
 
