@@ -5,13 +5,14 @@ date:   2015-06-02 13:00:00
 categories: drivel
 ---
 
-**Shocker:** I didn't get accepted to any of the graduate schools I applied to.
+##Shocker:
+I didn't get accepted to any of the graduate schools I applied to.
 
 As upsetting as that has been, I take (a little) comfort in knowing that I'm very much not alone, here.
 
 Resilience and adaptability are my specialties. Still, I have to admit feeling destroyed, not having really believed this would happen. I applied to three speech-language pathology programs... all of which have a less than 20% acceptance rate.
 
-**So, what now, genius?**
+##So, what now, genius?
 
 I don't know if or when I will apply again. And... Not to give anyone whiplash here, but, I am learning to program.
 
@@ -25,7 +26,7 @@ My husband is a software engineer, and I've always gotten along with his type. H
 
 The world of speech-language therapy is in dire need of people who know how to code (and I'm not sure they realize that, yet).
 
-**How does one just *learn to code*?**
+##How does one just *learn to code*?
 
 Ah! There is some good stuff out there for those who wish to start coding. I have a decent background in nonspecific tech-savviness, but for all tents and purses, I'm a beginner. The following are really useful sites to check out:
 
