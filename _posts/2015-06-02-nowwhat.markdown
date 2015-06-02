@@ -45,7 +45,8 @@ Code combat is a game that teaches code, and it's very fun. You have a choice of
   [3]: http://www.codecademy.com
   [4]: http://cdn-production.codecademy.com/assets/logo/logo--grey-498acc77555893fa7740135d429f628e.svg
 
-Code Academy is a well designed source for interactive tutorials that are engaging and very helpful. They have too many tutorials to list here, so, they probably have the discipline you're looking to learn about. 
+Code Academy is a well designed source for interactive tutorials that are engaging and very helpful. They have too many tutorials to list here, so, they probably have the discipline you're looking to learn about.
+ 
 ##Udacity
 
 [![Udacity][5]][6]
