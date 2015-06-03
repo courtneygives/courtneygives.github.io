@@ -31,29 +31,20 @@ The world of speech-language therapy is in dire need of people who know how to c
 Ah! There is some good stuff out there for those who wish to start coding. I have a decent background in nonspecific tech-savviness, but for all tents and purses, I'm a beginner. The following are really useful sites to check out:
 
 ###Code Combat
-[![Code Combat][2]][1]
-
-  [1]: http://codecombat.com/
-  [2]: http://codecombat.com/images/pages/base/logo.png
+[![Code Combat](http://codecombat.com/images/pages/base/logo.png)](http://codecombat.com/)
 Code combat is a game that teaches code, and it's very fun. You have a choice of language to use, including Python, Clojure, JavaScript, Io, Lua, and CoffeeScript. When you really get good, you can contribute to their entirely open-source code. **Note:** After completing a handful of levels, it will prompt you to subscribe, but there are plenty of free levels. All you need to do to keep playing is close out of the prompt, and click on the next level.
 
 ![](file:///Users/courtney/Desktop/coco_comic.jpg)
   
 ###Code Academy
 
-[![Code Academy][3]][4]
-
-  [3]: http://www.codecademy.com
-  [4]: http://cdn-production.codecademy.com/assets/logo/logo--grey-498acc77555893fa7740135d429f628e.svg
+[![Code Academy](http://cdn-production.codecademy.com/assets/logo/logo--grey-498acc77555893fa7740135d429f628e.svg)](http://www.codecademy.com)
 
 Code Academy is a well designed source for interactive tutorials that are engaging and very helpful. They have too many tutorials to list here, so, they probably have the discipline you're looking to learn about.
  
 ###Udacity
 
-[![Udacity][5]][6]
-
-  [5]: http://www.udacity.com
-  [6]: http://scholarship-positions.com/blog/wp-content/uploads/2014/09/Udacity.jpg
+[![Udacity](http://scholarship-positions.com/blog/wp-content/uploads/2014/09/Udacity.jpg)](http://www.udacity.com)
 
 Udacity has a wide range of online courses, not limited to the field of computer science. They have partnered with university to bring the internet free courses that are very well put together. Browse their site to see all the good stuff you can learn there.
 
