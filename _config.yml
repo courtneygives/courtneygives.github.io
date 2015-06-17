@@ -1,13 +1,8 @@
 # Site settings
-title: Huh?
-subtitle: Courtney Ives
+title: Courtney Ives
 email: cgives@me.com
 description: > #
- Courtney is a person in Minnesota writing things 
- about herself in the 3rd person but doesn't think 
- it's strange at all. She enjoys long walks in 
- sand-free areas, narrating for her cats, whistling (not actually being sarcastic there), and 
- taking pictures.
+ I'm Courtney. I enjoy long walks in sand-free areas.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 twitter_username: courtneygives
