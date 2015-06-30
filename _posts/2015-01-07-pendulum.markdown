@@ -2,7 +2,7 @@
 layout: post
 title:  "stuttering is a mess of a complicated thing"
 date:   2015-01-07 17:00:34
-categories: stuttering
+categories: language
 ---
 
 My fall semester at UWRF included an unconventional lecture on the topic of disfluency and behavior modification. Our professor, Doctor Jerry Halvorson, assured us that the *pendulum* is always swinging. At one time, the behaviorists like Wendell Johnson had the speech therapy field convinced that stuttering is a set of trained behaviors, a disorder born of one's *belief* that one is a "stutterer." The pendulum has since moved toward the mechanical: stuttering is a problem with the flow of speech and the involved speech mechanisms. Doctor Halvorson believes that it will keep on swinging, between psychological and mechanical, psychological, mechanical.

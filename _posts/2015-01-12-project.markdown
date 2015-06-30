@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "spring project idea... redundancy"
+title:  "Redundancy"
 date:   2015-01-12 16:00:34
-categories: speech language pathology
+categories: language
 ---
 
 Currently in the planning stage is an independent study for the Spring semester. I am currently attending the University of Wisconsin-River Falls, working on two semesters of prerequisites for the Master's degree in Communication Sciences & Disorders.
