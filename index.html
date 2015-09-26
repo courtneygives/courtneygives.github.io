@@ -2,22 +2,26 @@
 layout: default
 ---
 
-<div class="home">
+<div>
+  <p>
+    Keytar trust fund bicycle rights, PBR farm-to-table aliqua narwhal Schlitz pop-up roof party hashtag qui 90's. Try-hard Odd Future velit, shabby chic ethical ad assumenda readymade tempor. Kitsch chambray irony locavore fashion axe. Four loko fanny pack art party exercitation single-origin coffee. Four loko voluptate quis, taxidermy lo-fi distillery Vice nisi Intelligentsia Marfa hoodie butcher gentrify culpa mixtape. You probably haven't heard of them accusamus actually pug. Kitsch 8-bit Kickstarter Godard.
+  </p><br />
+  <p>
+    Marfa Carles post-ironic church-key duis veniam flexitarian, selvage squid culpa. Chillwave Banksy small batch proident scenester, voluptate wolf forage bicycle rights chia tousled. Truffaut 8-bit four loko, enim gastropub heirloom Schlitz. Elit esse salvia, Marfa bespoke cupidatat retro. Sartorial wolf occaecat banjo. Accusamus chambray viral cupidatat, dolore Kickstarter excepteur nulla fap hella est quis. Bitters ullamco Schlitz aliqua, next level butcher chia distillery brunch voluptate et.
+  </p>
+</div><br />
 
-  <h1 class="page-heading">Drivel</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<h3><span class="marker-dot-right"></span>Recent Posts</h3>
+<ul class="posts">
+  {% for post in site.posts limit:10 %}
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        <span class="post-date">
+          <span class="marker-dot-right"></span>
+          {{ post.date | date: "%b %-d, %Y" }}
+        </span>
+        <span class="post-link">{{ post.title }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
