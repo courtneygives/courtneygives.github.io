@@ -2,6 +2,31 @@ h1, h2, h3, h4, h5, h6, .nav-page-link, .post-link {
 	font-family: Courier, monospace;
 	font-weight: 100;
 }
+
+h1 {
+	font-size: normal;
+}
+
+h2 {
+	font-size: normal;
+}
+
+h3 {
+	font-size: normal;
+}
+
+h4 {
+	font-size: normal;
+}
+
+h5 {
+	font-size: normal;
+}
+
+h6 {
+	font-size: normal;
+}
+
 body {
 	height: 100%;
 }
