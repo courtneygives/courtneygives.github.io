@@ -245,4 +245,9 @@ body {
 		margin: 0px 30px;
 	}
 
+	.sidebar-footer ul li {
+		display: inline-block;
+		margin: 10px;
+	}
+
 }
