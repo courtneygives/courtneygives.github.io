@@ -40,10 +40,13 @@ body {
 	margin-top: 10px;
 	display: block;
 	font-family: 'Dancing Script', cursive;
-	font-size: 60pt;
-	height: 80px;
+	font-size: 50pt;
+	height: 60px;
 	float: left;
 	margin-left: 30px;
+	color: #585858;
+}
+.site-title:hover {
 	color: black;
 }
 
@@ -113,12 +116,15 @@ body {
 	margin-left: 4%;
 }
 .site-title .marker-dot-right {
-	margin-top: 40px;
+	margin-top: 30px;
 	height: 15px;
 	width: 15px;
 	margin-left: -38px;
 	background-color: #585858;
 
+}
+.site-title:hover .marker-dot-right {
+	background-color: white;
 }
 
 .nav-page-link {
