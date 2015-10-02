@@ -37,6 +37,15 @@ Computing Concepts; Web Design; Cognitive Psychology; Theory of Language
 
 ###**Work and Volunteer Experience**
 
+##Software Tester | June, 2015 - Present
+TapQA, Minneapolis, Minnesota
+- Manual testing of Web content management system software
+- Kicking off automation suites
+- Manual regression testing
+- Working closely with developers to fix defects
+- Working within the time limits of the SDLC/sprint cycle
+- Following Agile methodology
+
 ##Developmental Trainee | 2013 - 2014 
 Fraser Autism Services, Minneapolis, Minnesota
 - Working with one child with Autism and built trust
