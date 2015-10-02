@@ -15,7 +15,7 @@
   </header>
   <div class="row">
     <div class="three columns main-sidebar">
-      <nav>
+      <nav class="sidebar-nav">
         {% for page in site.pages %}
           {% if page.title %}
           <span class="marker-dot-nav-right hide-big"></span><a class="nav-page-link" href="{{ page.url | prepend: site.baseurl }}"><span class="nav-link-text">{{ page.title }}</span><span class="marker-dot-left"></span></a>

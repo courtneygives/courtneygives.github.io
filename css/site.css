@@ -134,9 +134,27 @@ body {
 	padding: 30px;
 }
 
+.blag-link {
+	text-decoration: none;
+	color: #585858;
+}
+
+.blag-link:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.blag-link:hover .marker-dot-right {
+	background-color: #585858;
+}
+
 .nav-page-link:hover {
 	text-decoration: underline;
 	color: black;
+}
+
+.nav-page-link:hover .marker-dot-left {
+	background-color: #585858;
 }
 
 .posts {
@@ -155,6 +173,10 @@ body {
 	border-radius: 7px;
 	margin-left: -34px;
 	background-color: #585858;
+}
+
+.posts .post-link:hover .marker-dot-right {
+	background-color: white;
 }
 
 .posts .post-link:hover {
