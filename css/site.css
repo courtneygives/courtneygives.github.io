@@ -1,0 +1,247 @@
+h1, h2, h3, h4, h5, h6, .nav-page-link, .post-link {
+	font-family: Courier, monospace;
+	font-weight: 100;
+}
+
+h1 {
+	font-size: 25pt;
+}
+
+h2 {
+	font-size: 15pt;
+}
+
+h3 {
+	font-size: 30pt;
+	font-family: 'Dancing Script', cursive;
+}
+
+h4 {
+	font-size: normal;
+}
+
+h5 {
+	font-size: normal;
+}
+
+h6 {
+	font-size: normal;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.site-title {
+	margin-top: 10px;
+	display: block;
+	font-family: 'Dancing Script', cursive;
+	font-size: 60pt;
+	height: 80px;
+	float: left;
+	margin-left: 30px;
+	color: black;
+}
+
+.background-provider {
+	background-color: white; 
+	position: fixed;
+	z-index: -10000;
+	top: 0;
+	height: 100%;
+	border-left: 1px solid black;
+}
+
+.github-icon-svg,
+.twitter-icon-svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+}
+
+.grey-left-side {
+	position: fixed;
+	width: 50%;
+	z-index: -10001;
+	height: 100%;
+	background-color: #E5E5E5;
+}
+
+.main-sidebar nav {
+	background-color: #E5E5E5;
+}
+
+.marker-dot-right {
+	display: block;
+	height: 10px;
+	width: 10px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	margin-top: 18px;
+	margin-left: -35px;
+}
+
+.marker-dot-nav-right {
+	display: block;
+	height: 10px;
+	width: 10px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: -5px;
+}
+
+.marker-dot-left {
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 4%;
+}
+.site-title .marker-dot-right {
+	margin-top: 40px;
+	height: 15px;
+	width: 15px;
+	margin-left: -38px;
+	background-color: #585858;
+
+}
+
+.nav-page-link {
+	display: block;
+	text-align: right;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	margin-right: 5px;
+}
+
+.main-content {
+	padding: 30px;
+}
+
+.nav-page-link:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.posts {
+	list-style: none;
+}
+
+.posts .post-link {
+	font-size: 15px;
+	color: #666;
+	text-decoration: none;
+}
+
+.posts .post-link .marker-dot-right {
+	height: 7px;
+	width: 7px;
+	border-radius: 7px;
+	margin-left: -34px;
+	background-color: #585858;
+}
+
+.posts .post-link:hover {
+	text-decoration: underline;
+}
+
+.posts .post-date {
+	display: block;
+	color: black;
+}
+
+.sidebar-footer {
+	text-align: right;
+	position: fixed;
+	bottom: 20px;
+	right: 79%;
+	margin-left: 4%;
+}
+
+.sidebar-footer ul{
+	list-style: none;
+}
+
+.sidebar-footer ul li a {
+	text-decoration: none;
+	color: #777;
+}
+
+.sidebar-footer ul li a:hover {
+	text-decoration: underline;
+	color: #777;
+}
+
+.linkedin-icon-svg,
+.github-icon-svg,
+.twitter-icon-svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+}
+
+@media (max-width: 676px) {
+	.site-title {
+		font-size: 35pt;
+		height: 40px;
+	}
+
+	.site-title .marker-dot-right {
+		margin-top: 23px;
+	}
+}
+
+.hide-big {
+	display: none;
+}
+
+@media (max-width: 550px) {
+
+	.nav-page-link {
+		text-align: left;
+		margin-left: 30px;
+	}
+
+	.hide-big {
+		display: block;
+	}
+
+	.marker-dot-left {
+		display: none;
+	}
+
+	.main-sidebar nav {
+		margin: 10px 0;
+		padding: 10px 0;
+		border-left: 1px solid black;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		background-color: #E5E5E5;
+	}
+
+	.sidebar-footer {
+		position: static;
+		float: left;
+		text-align: left;
+		margin: 0px 30px;
+	}
+
+}

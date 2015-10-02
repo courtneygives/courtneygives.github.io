@@ -1,5 +1,5 @@
 # Site settings
-title: Courtney Ives
+title: Courtney G. Ives
 email: cgives@me.com
 description: > #
  I'm Courtney. I enjoy long walks in sand-free areas.
@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 twitter_username: courtneygives
 github_username:  courtneygives
+linkedin_profile: https://www.linkedin.com/pub/courtney-ives/23/762/a70
 
 # Build settings
 markdown: kramdown
