@@ -18,12 +18,8 @@ Computing Concepts; Web Design; Cognitive Psychology; Theory of Language
 
 - **Courses:** Anatomy & Physiology of Speech & Hearing; Audiology; Aural Rehabilitation; Behavioral Statistics; Conceptual Physics 
 
-<<<<<<< Updated upstream
-###**Skills & Knowledge**
-=======
 ###**Skills**
 
->>>>>>> Stashed changes
 - Manual software testing
 - Web content management systems
 - Agile methodologies
@@ -38,7 +34,6 @@ Computing Concepts; Web Design; Cognitive Psychology; Theory of Language
 - Writing, editing, linguistics
 - Film production and editing
 - Autism and special needs
-<<<<<<< Updated upstream
 - Adaptable, detail-oriented, observant 
 
 ###**Work and Volunteer Experience**
@@ -50,20 +45,6 @@ TapQA, Minneapolis, Minnesota
 - Manual regression testing
 - Working closely with developers to fix defects
 - Working within the time limits of the SDLC/sprint cycle
-=======
-- Adaptable, detail-oriented, observant
-
-###**Work and Volunteer Experience**
-
-##Software QA Tester | June 2015 - Present
-Tap|QA, Minneapolis, MN
-
-- Manual testing of Web content management system software
-- Kicking off automation suites
-- Manual regression testing
-- Working with developers to fix defects
-- Working within the time limits of the sprint cycle
->>>>>>> Stashed changes
 - Following Agile methodology
 
 ##Developmental Trainee | 2013 - 2014 
@@ -102,13 +83,7 @@ International Language Institute, Northampton, Massachusetts
 
 ##Media Assistant | 2007 - 2011
 Hampshire College Media Services, Amherst, Massachusetts
-<<<<<<< Updated upstream
-- Screening films; edited filmed Hampshire events; running sound and video for events
-- Checking sound and video equipment in and out; helping students choose suitable equipment
-=======
-
 - Screening films; editing filmed Hampshire events
 - Running sound and video for events
 - Checking sound and video equipment in and out
-- Helping students choose suitable equipment
->>>>>>> Stashed changes
+- Helping students choose suitable equipment 
