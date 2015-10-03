@@ -147,7 +147,7 @@ ul li {
 }
 
 .main-content {
-	padding: 30px;
+	padding: 10px 30px;
 }
 
 .blag-link {
@@ -214,6 +214,7 @@ ul li {
 
 .sidebar-footer ul{
 	list-style: none;
+	margin-bottom: 10px;
 }
 
 .sidebar-footer ul li a {
@@ -281,6 +282,10 @@ ul li {
 		float: left;
 		text-align: left;
 		margin: 0px 30px;
+	}
+
+	.footer-description {
+		display: none;
 	}
 
 	.sidebar-footer ul li {
