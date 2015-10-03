@@ -9,6 +9,8 @@ h1 {
 
 h2 {
 	font-size: 15pt;
+	margin-bottom: 10px;
+	font-weight: bold;
 }
 
 h3 {
@@ -32,8 +34,16 @@ img {
 	max-width: 100%;
 }
 
+p {
+	margin-bottom: 10px;
+}
+
 body {
 	height: 100%;
+}
+
+ul li {
+	margin-bottom: 5px;
 }
 
 .site-title {
