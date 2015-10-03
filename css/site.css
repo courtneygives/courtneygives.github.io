@@ -9,6 +9,8 @@ h1 {
 
 h2 {
 	font-size: 15pt;
+	margin-bottom: 10px;
+	font-weight: bold;
 }
 
 h3 {
@@ -32,8 +34,16 @@ img {
 	max-width: 100%;
 }
 
+p {
+	margin-bottom: 10px;
+}
+
 body {
 	height: 100%;
+}
+
+ul li {
+	margin-bottom: 5px;
 }
 
 .site-title {
@@ -137,7 +147,7 @@ body {
 }
 
 .main-content {
-	padding: 30px;
+	padding: 10px 30px;
 }
 
 .blag-link {
@@ -204,6 +214,7 @@ body {
 
 .sidebar-footer ul{
 	list-style: none;
+	margin-bottom: 10px;
 }
 
 .sidebar-footer ul li a {
@@ -271,6 +282,10 @@ body {
 		float: left;
 		text-align: left;
 		margin: 0px 30px;
+	}
+
+	.footer-description {
+		display: none;
 	}
 
 	.sidebar-footer ul li {

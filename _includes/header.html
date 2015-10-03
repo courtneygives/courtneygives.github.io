@@ -23,7 +23,6 @@
         {% endfor %}
       </nav>
       <div class="sidebar-footer">
-        <p>{{ site.description }}</p>
         <ul>
           {% if site.github_username %}<li>
             <a href="https://github.com/{{ site.github_username }}">
@@ -88,6 +87,7 @@
             </a>
           </li>
         </ul>
+        <p class="footer-description">{{ site.description }}</p>
       </div>
     </div>
 
