@@ -50,10 +50,13 @@ ul li {
 	margin-top: 10px;
 	display: block;
 	font-family: 'Dancing Script', cursive;
-	font-size: 60pt;
-	height: 80px;
+	font-size: 50pt;
+	height: 60px;
 	float: left;
 	margin-left: 30px;
+	color: #585858;
+}
+.site-title:hover {
 	color: black;
 }
 
@@ -123,12 +126,15 @@ ul li {
 	margin-left: 4%;
 }
 .site-title .marker-dot-right {
-	margin-top: 40px;
+	margin-top: 30px;
 	height: 15px;
 	width: 15px;
 	margin-left: -38px;
 	background-color: #585858;
 
+}
+.site-title:hover .marker-dot-right {
+	background-color: white;
 }
 
 .nav-page-link {
@@ -144,9 +150,27 @@ ul li {
 	padding: 30px;
 }
 
+.blag-link {
+	text-decoration: none;
+	color: #585858;
+}
+
+.blag-link:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.blag-link:hover .marker-dot-right {
+	background-color: #585858;
+}
+
 .nav-page-link:hover {
 	text-decoration: underline;
 	color: black;
+}
+
+.nav-page-link:hover .marker-dot-left {
+	background-color: #585858;
 }
 
 .posts {
@@ -165,6 +189,10 @@ ul li {
 	border-radius: 7px;
 	margin-left: -34px;
 	background-color: #585858;
+}
+
+.posts .post-link:hover .marker-dot-right {
+	background-color: white;
 }
 
 .posts .post-link:hover {
@@ -200,6 +228,7 @@ ul li {
 
 .linkedin-icon-svg,
 .github-icon-svg,
+.rss-icon-svg,
 .twitter-icon-svg {
   display: inline-block;
   width: 16px;
@@ -252,6 +281,11 @@ ul li {
 		float: left;
 		text-align: left;
 		margin: 0px 30px;
+	}
+
+	.sidebar-footer ul li {
+		display: inline-block;
+		margin: 10px;
 	}
 
 }
