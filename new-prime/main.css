@@ -40,9 +40,13 @@ p {
   text-shadow: 2px 2px 8px gray;
 }
 
-a, a:visited {
+a {
   color: #009966;
   text-decoration: none !important;
+}
+
+a:visited {
+  color: inherit;
 }
 
 a:hover {
