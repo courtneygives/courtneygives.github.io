@@ -5,14 +5,14 @@ date:   2015-06-02 13:00:00
 categories: drivel
 ---
 
-###Shocker:
+### Shocker:
 I didn't get accepted to any of the graduate schools I applied to.
 
 As upsetting as that has been, I take (a little) comfort in knowing that I'm very much not alone, here.
 
 Resilience and adaptability are my specialties. Still, I have to admit feeling destroyed, not having really believed this would happen. I applied to three speech-language pathology programs... all of which have a less than 20% acceptance rate.
 
-###So, what now, genius?
+### So, what now, genius?
 
 I don't know if or when I will apply again. And... Not to give anyone whiplash here, but, I am learning to program.
 
@@ -26,24 +26,24 @@ My husband is a software engineer, and I've always gotten along with his type. H
 
 The world of speech-language therapy is in dire need of people who know how to code (and I'm not sure they realize that, yet).
 
-###How does one just *learn to code*?
+### How does one just *learn to code*?
 
 Ah! There is some good stuff out there for those who wish to start coding. I have a decent background in nonspecific tech-savviness, but for all tents and purses, I'm a beginner. The following are really useful sites to check out:
 
-###Code Combat
+### Code Combat
 [![Code Combat](http://codecombat.com/images/pages/base/logo.png)](http://codecombat.com/)
 
 Code combat is a game that teaches code, and it's very fun. You have a choice of language to use, including Python, Clojure, JavaScript, Io, Lua, and CoffeeScript. When you really get good, you can contribute to their entirely open-source code. **Note:** After completing a handful of levels, it will prompt you to subscribe, but there are plenty of free levels. All you need to do to keep playing is close out of the prompt, and click on the next level.
 
 ![]({{ site.baseurl }}/images/coco-comic.jpg)
 
-###Codecademy
+### Codecademy
 
 [![]({{ site.baseurl }}/images/codecademylogo.png)](http://www.codecademy.com)
 
 Codecademy is a well designed source for interactive tutorials that are engaging and very helpful. They have too many tutorials to list here, so, they probably have the discipline you're looking to learn about.
  
-###Udacity
+### Udacity
 
 [![]({{ site.baseurl }}/images/udacitylogo.png)](http://www.udacity.com)
 
