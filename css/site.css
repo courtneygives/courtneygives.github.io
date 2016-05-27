@@ -1,41 +1,38 @@
-h1, h2, h3, h4, h5, h6, .nav-page-link, .post-link {
-	font-family: Courier, monospace;
-	font-weight: 100;
+
+/* ::: Google Fonts :::
+font-family: 'Pacifico', 'Dancing Script', cursive;
+font-family: 'Comfortaa', 'Futura', sans-serif;
+font-family: 'Jura', sans-serif;
+font-family: 'Boogaloo', cursive;
+*/
+
+p {
+	margin-bottom: 10px;
+
 }
 
-h1 {
-	font-size: 25pt;
+h1{
+	font-family: 'Boogaloo', 'georgia', serif;
+	font-size: 35px;
+	color: #c75123;
 }
 
 h2 {
-	font-size: 15pt;
-	margin-bottom: 10px;
+	font-family: 'Boogaloo', 'georgia', serif;
 	font-weight: bold;
+	font-size: 25px;
+	color: #5c407a;
+	margin-bottom: 5px;
+
 }
 
-h3 {
-	font-size: 30pt;
-	font-family: 'Dancing Script', cursive;
-}
-
-h4 {
-	font-size: normal;
-}
-
-h5 {
-	font-size: normal;
-}
-
-h6 {
-	font-size: normal;
+h3{
+	font-family: 'Pacifico', cursive;
+	font-weight: bolder;
 }
 
 img {
 	max-width: 100%;
-}
-
-p {
-	margin-bottom: 10px;
 }
 
 body {
@@ -43,25 +40,25 @@ body {
 }
 
 ul li {
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 }
 
 .site-title {
 	margin-top: 10px;
 	display: block;
-	font-family: 'Dancing Script', cursive;
-	font-size: 50pt;
+	font-family: 'Pacifico', 'Dancing Script', cursive;
+	font-size: 40pt;
 	height: 60px;
 	float: left;
 	margin-left: 30px;
-	color: #585858;
+	color: black;
 }
 .site-title:hover {
-	color: black;
+	color: grey;
 }
 
 .background-provider {
-	background-color: white; 
+	background-color: white;
 	position: fixed;
 	z-index: -10000;
 	top: 0;
@@ -130,11 +127,11 @@ ul li {
 	height: 15px;
 	width: 15px;
 	margin-left: -38px;
-	background-color: #585858;
+	background-color: darkgrey;
 
 }
 .site-title:hover .marker-dot-right {
-	background-color: white;
+	background-color: #5c407a;
 }
 
 .nav-page-link {
@@ -165,7 +162,6 @@ ul li {
 }
 
 .nav-page-link:hover {
-	text-decoration: underline;
 	color: black;
 }
 
