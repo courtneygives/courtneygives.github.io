@@ -6,7 +6,7 @@ font-family: 'Jura', sans-serif;
 font-family: 'Boogaloo', cursive;
 */
 
-/* ::::::::::::::::: General Styles ::::::::::::::::: */
+/* ::::::::::::: General Styles ::::::::::::: */
 body {
   background-color: #333;
   }
@@ -53,7 +53,7 @@ body {
     text-decoration: none;
     color: black;
   }
-  /* ::::::::::::::::: Other Styles ::::::::::::::::: */
+  /* ::::::::::::: Other Styles ::::::::::::: */
 
   .navigation {
     font-family: 'Jura', 'helvetica', serif;
