@@ -1,0 +1,128 @@
+/* ::: Google Fonts :::
+font-family: 'Anton', sans-serif;
+font-family: 'Pacifico', 'Dancing Script', cursive;
+font-family: 'Comfortaa', 'Futura', sans-serif;
+font-family: 'Jura', sans-serif;
+font-family: 'Boogaloo', cursive;
+*/
+
+/* ::::::::::::::::: General Styles ::::::::::::::::: */
+body {
+  background-color: #333;
+  }
+
+  p {
+    padding-top: 3px;
+    font-family: 'Comfortaa', 'Futura', sans-serif;
+  }
+
+  h1{
+    font-family: 'Pacifico', 'Dancing Script', cursive;
+    padding: 5px 0 10px 0;
+  }
+
+  h2 {
+    font-family: 'Pacifico', 'Dancing Script', cursive;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+  }
+
+  h3{
+    font-family: 'Jura', 'helvetica', serif;
+    font-size: 18px;
+    padding: 10px inherit;
+  }
+
+  ul {
+    list-style: none;
+    }
+
+  footer {
+    font-family: 'Jura', 'helvetica', serif;
+    color: gray;
+    height: 50px;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  a :hover {
+    text-decoration: none;
+    color: black;
+  }
+  /* ::::::::::::::::: Other Styles ::::::::::::::::: */
+
+  .navigation {
+    font-family: 'Jura', 'helvetica', serif;
+    font-size: 18px;
+    background-color: #333;
+    border: 1px solid #333  ;
+    border-radius: 0;
+    float: none;
+  }
+
+  .navigation a {
+    color: lightgray;
+    border-radius: 0;
+    margin-left: 1px;
+  }
+
+  .nav-pills>li.active>a  {
+    color: black;
+    background-color: #666;
+    border-radius: 0;
+  }
+  .nav-pills>li.active>a:focus {
+    color: lightgray;
+    background-color: #555;
+    border-radius: 0;
+  }
+
+  .nav-pills>li.active>a:hover {
+    color: lightgray;
+    background-color: #555;
+    border-radius: 0;
+  }
+
+  .nav-pills>li>a:hover {
+    color: lightgray;
+    background-color: #555;
+    border-radius: 0;
+  }
+
+  .nav-pills>li>a {
+    color: lightgray;
+    border-radius: 0;
+  }
+
+  .col-md-4, .col-md-8 {
+    height:450px;
+    border: 1px solid #333;
+    padding: 20px;
+  }
+
+  .contact {
+    font-size: 40px;
+    margin-left: -30px;
+    }
+
+  .gold {
+    background-color: gold;
+    height:350px;
+  }
+
+  .blue {
+    background-color: steelblue;
+    height:350px;
+  }
+
+  .orange {
+    background-color: darkorange;
+  }
+
+  .green {
+    background-color: mediumseagreen;
+  }
