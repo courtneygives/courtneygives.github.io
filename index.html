@@ -2,22 +2,51 @@
 layout: default
 ---
 
-<div class="home">
+  <!-- ::::::::::::: INTRODUCTION ::::::::::::: -->
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="container-fluid">
+    <div class="row top-row">
+      <div id="box1" class="col-md-4 gold">
+        <h1>Courtney G. Ives</h1>
+        <h3>Full Stack Software Development</h3>
+        <p>I enjoy long walks in sand-free areas, stickers, and jasmine rice.</p>
+      </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      <div class="col-md-8 blue">
+        <h1>Gallery</h1>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      </div>
 
-</div>
+    </div>
+    <div class="row bottom-row">
+      <div class="col-md-8 orange">
+        <h1>Recent blog posts</h1>
+        <h3>Drivel, the blog in which Courtney blogs.</h3>
+
+        <p>Photo booth 90's ethical, celiac you probably haven't heard of them bespoke truffaut. Drinking vinegar kombucha hoodie, put a bird on it thundercats four loko craft beer hella pork belly. IPhone small batch occupy yuccie, humblebrag chartreuse microdosing migas cronut scenester poutine chia. Lumbersexual yr helvetica, readymade craft beer everyday carry food truck quinoa marfa williamsburg migas knausgaard literally kombucha tacos. Pitchfork fap next level tote bag, dreamcatcher polaroid tilde distillery squid yr. Tofu messenger bag iPhone, asymmetrical food truck cray austin tilde. Irony listicle aesthetic, knausgaard normcore migas craft beer.</p>
+      </div>
+
+  <!-- ::::::::::::: CONTACT LINKS ::::::::::::: -->
+      <div class="col-md-4 green">
+        <h1>Find me...</h1>
+        <ul class="contact">
+        <li><a href="mailto:cgives@me.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.twitter.com/courtneygives"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.github.com/courtneygives"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/courtney-ives-a7076223"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.instagram.com/cgives"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+
+<footer> <!-- ::::::::::::: FOOTER ::::::::::::: -->
+
+  <h3>Written, designed, and coded by cgives in 2016.</h3>
+</footer>
+</html>
