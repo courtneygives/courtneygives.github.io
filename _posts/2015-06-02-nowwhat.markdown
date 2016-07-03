@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "operation: new plan"
+title:  "Okay, New Plan"
 date:   2015-06-02 13:00:00
 categories: drivel
 ---
@@ -42,10 +42,9 @@ Code combat is a game that teaches code, and it's very fun. You have a choice of
 [![]({{ site.baseurl }}/images/codecademylogo.png)](http://www.codecademy.com)
 
 Codecademy is a well designed source for interactive tutorials that are engaging and very helpful. They have too many tutorials to list here, so, they probably have the discipline you're looking to learn about.
- 
+
 ### Udacity
 
 [![]({{ site.baseurl }}/images/udacitylogo.png)](http://www.udacity.com)
 
 Udacity has a wide range of online courses, not limited to the field of computer science. They have partnered with university to bring the internet free courses that are very well put together. Browse their site to see all the good stuff you can learn there.
-

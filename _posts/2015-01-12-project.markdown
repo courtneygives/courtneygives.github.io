@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Redundancy"
+title:  "Speech Signal Redundancy"
 date:   2015-01-12 16:00:34
 categories: language
 ---
@@ -9,17 +9,14 @@ Currently in the planning stage is an independent study for the Spring semester.
 
 UWRF has its own speech and language clinic, a brilliant resource for us students, as well as for the community there. That clinic and the teaching staff in the CSD department make my 45 minute drive completely worth the effort.
 
-My project will fit somewhere in the expansive categories of people with developmental disabilities, alternative/augmentative communication, and communication disorders. 
+My project will fit somewhere in the expansive categories of people with developmental disabilities, alternative/augmentative communication, and communication disorders.
 
 One idea I've been swirling has to do with redundancy of communication modes. Is it helpful or harmful for understanding to say a sentence verbally and simultaneously accompany it with a rough American Sign Language equivalent? Most people, unfortunately, do not understand ASL, but sometimes meanings of signs can be inferred by English speakers. So someone speaking and signing at the same time might be confusing, or it might be slightly more understandable than normal.
 
-The answer seems obvious, but, it may be valuable to study the value of non-linguistic gesture accompanying speech. Many aspects of this have been looked at already. If I give you directions to the airport, is it helpful or harmful to make use of gestures while I'm talking? 
+The answer seems obvious, but, it may be valuable to study the value of non-linguistic gesture accompanying speech. Many aspects of this have been looked at already. If I give you directions to the airport, is it helpful or harmful to make use of gestures while I'm talking?
 
-We already know that the speech signal contains redundancy, which *does* assist with comprehensibility. An example of this built-in redundancy would be the way we English speakers mark plural versus singular multiple times in one sentence: "*They would like seats* for *three people*." We also tend to use prosodic cues to make ourselves very clear. In theory, I could just say, robotically, "I'm really angry with you right now." But that seems too singular; I would rather you *really* get the point... so I'd say it loudly, and I'd emphasize the words *really* and *angry*. Right? 
+We already know that the speech signal contains redundancy, which *does* assist with comprehensibility. An example of this built-in redundancy would be the way we English speakers mark plural versus singular multiple times in one sentence: "*They would like seats* for *three people*." We also tend to use prosodic cues to make ourselves very clear. In theory, I could just say, robotically, "I'm really angry with you right now." But that seems too singular; I would rather you *really* get the point... so I'd say it loudly, and I'd emphasize the words *really* and *angry*. Right?
 
 I'd like to do some research, potentially, on the value of a variety of redundancy that is more overt than the inherent redundant properties of normal speech. The addition of ASL would be interesting, as would the addition of images.
 
 When I was working for a childhood Autism program with a great local organization called Fraser, we frequently used pictograms (simple, small, printed-out graphics of common items or actions) to teach the kids more effective communication. For many of the children, speaking was a serious roadblock. Would children with comprehension problems be aided by my holding up a picture of cheese while also saying "cheese"? Would a child who is difficult to understand help everyone else by doing that same thing? I would think the answers to both of these is yes.
-
-
-

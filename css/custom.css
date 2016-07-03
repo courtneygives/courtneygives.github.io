@@ -17,13 +17,13 @@ p {
 
 h1{
   font-family: 'Pacifico', 'Dancing Script', cursive;
-  padding: 5px 0 10px 0;
+  padding: 5px;
 }
 
 h2 {
   font-family: 'Pacifico', 'Dancing Script', cursive;
   font-weight: bold;
-  margin: 10px 0 10px 0;
+  margin: 10px 0;
 }
 
 h3{
@@ -49,15 +49,21 @@ footer {
   text-align: center;
 }
 
-a {
+a, a.post-link {
   text-decoration: none;
   color: #333;
 }
 
-a :hover {
+a:hover, a.post-link:hover {
   text-decoration: none;
-  color: steelblue;
+  text-shadow: -2px 2px 8px palegoldenrod;
+  color: #333;
 }
+
+i:hover{
+  color: darkslateblue;
+}
+
 /* ::::::::::::: Navigation ::::::::::::: */
 
 .navigation {
@@ -95,12 +101,14 @@ a :hover {
   color: lightgray;
   background-color: #555;
   border-radius: 0;
+  text-shadow: none;
 }
 
 .nav-pills>li>a:hover {
   color: lightgray;
   background-color: #555;
   border-radius: 0;
+  text-shadow: none;
 }
 
 .nav-pills>li>a {
@@ -117,7 +125,8 @@ a :hover {
 .col-md-4, .col-md-8 {
   min-height:300px;
   border: 1px solid #333;
-  padding: 10px;
+  padding: 15px;
+  margin: 0px;
 }
 
 .contact {
@@ -133,11 +142,33 @@ a :hover {
 .gold {
   background-color: gold;
   height:inherit;
+  overflow-y: scroll;
+}
+
+.gold::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+.gold::-webkit-scrollbar-thumb{
+  width: 8px;
+  background-color: #CCAC00;
 }
 
 .blue {
   background-color: steelblue;
   height:inherit;
+  overflow-y: scroll;
+}
+
+.blue::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+.blue::-webkit-scrollbar-thumb{
+  width: 8px;
+  background-color: #2C5170;
 }
 
 .row.bottom-row {
@@ -147,6 +178,21 @@ a :hover {
 .orange {
   background-color: darkorange;
   height: inherit;
+  overflow-y: scroll;
+}
+
+.orange::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+.orange::-webkit-scrollbar-thumb{
+  width: 8px;
+  background-color: #B26200;
+}
+
+.orange p {
+  padding: 20px;
 }
 
 .green {
@@ -157,7 +203,7 @@ a :hover {
 
 .green::-webkit-scrollbar{
     width: 8px;
-    background-color: rgba(83,118,66,0.5);
+    background-color: transparent;
 }
 
 .green::-webkit-scrollbar-thumb{
@@ -169,4 +215,14 @@ a :hover {
 
 footer h3{
   margin-top: 20px;
+}
+
+
+/* ::::::::::::: mobile rules ::::::::::::: */
+
+@media only screen and (max-width: 500px) {
+    .col-md-4, .col-md-8{
+      height: 300px;
+    }
+
 }

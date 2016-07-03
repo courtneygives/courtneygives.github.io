@@ -5,7 +5,7 @@ layout: default
 <!-- ::::::::::::: INTRODUCTION ::::::::::::: -->
 
 <div class="container-fluid">
-  <div class="row top-row row-eq-height">
+  <div class="row top-row">
     <div id="box1" class="col-md-4 gold">
       <h1>Courtney G. Ives</h1>
       <h3>Full Stack Software Development, Web Design, Front-End Engineering, Client-Side Development, Silly Walks, Under-Water Basket-Weaving</h3>
@@ -18,15 +18,23 @@ layout: default
       </ul>
     </div>
 
-
     <div class="col-md-8 blue">
-      <h1>About me...</h1>
-      <p>I enjoy long walks in sand-free areas, stickers, and jasmine rice.</p>
-    </div>
+      <h1>Gallery</h1>
+        <a><p>
+          Coming sometime!
+        </p></a>
 
+    </div>
   </div>
-  <div class="row bottom-row row-eq-height">
+
+  <div class="row bottom-row">
     <div class="col-md-8 orange">
+      <h1>Latest nonsense...</h1>
+        {% for post in site.posts limit:2 %}
+        <h4 class="post-meta">{{ post.date | date: "%b %-d, %Y" }}:
+        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h4>
+        <p>{{ post.content | strip_html | truncatewords:300}}</p>
+        {% endfor %}
 
     </div>
 

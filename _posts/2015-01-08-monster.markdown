@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "the monster study"
+title:  "The Monster Study"
 date:   2015-01-08 14:00:34
 categories: language
 ---
 **Wendell Johnson, one of the original speech pathologists, theorized that stuttering *originates in the ear of the listener.* The Monster Study was designed to test that theory, so called for a good reason.**
 
-Under the guidance of Dr. Johnson at the University of Iowa in 1939, a graduate student called **Mary Tudor** conducted a study using orphaned children. This study was suppressed and hidden from all knowledge after the fact because of its use of human children subjects and the permanent adverse effects the study had upon them. At the time, there were far fewer restrictions and regulations on experiments and subjects. 
+Under the guidance of Dr. Johnson at the University of Iowa in 1939, a graduate student called **Mary Tudor** conducted a study using orphaned children. This study was suppressed and hidden from all knowledge after the fact because of its use of human children subjects and the permanent adverse effects the study had upon them. At the time, there were far fewer restrictions and regulations on experiments and subjects.
 
 **Ms. Tudor randomly selected control subjects from the orphans, who would be told that they seem to be “having trouble” speaking. They were labeled as “stutterers” and told to consciously avoid making errors of any kind**.
 
@@ -14,10 +14,10 @@ Over many months, the control group were told never to speak, unless they could 
 
 1. The children had become extremely shy and spoke less.
 2. When they did speak, it was slowly, quietly, and only in short utterances.
-3. Eventually they were rarely speaking at all and had concluded that their speech was disordered. 
+3. Eventually they were rarely speaking at all and had concluded that their speech was disordered.
 4. The subjects developed secondary behaviors and had indeed begun to stutter.
 
-The irrevocable harm done to these children is a tragedy, and this study never should have been allowed to proceed. We have, however, learned a great deal from the misfortune of these children. 
+The irrevocable harm done to these children is a tragedy, and this study never should have been allowed to proceed. We have, however, learned a great deal from the misfortune of these children.
 
 **With this knowledge, new cases of stuttering can often be prevented.**
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "stuttering is a mess of a complicated thing"
+title:  "Stuttering Is a Mess of a Complicated Thing"
 date:   2015-01-07 17:00:34
 categories: language
 ---
