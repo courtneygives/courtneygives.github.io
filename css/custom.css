@@ -142,34 +142,13 @@ i:hover{
 .gold {
   background-color: gold;
   height:inherit;
-  overflow-y: scroll;
-}
-
-.gold::-webkit-scrollbar {
-  width: 8px;
-  background-color: transparent;
-}
-
-.gold::-webkit-scrollbar-thumb{
-  width: 8px;
-  background-color: #CCAC00;
 }
 
 .blue {
   background-color: steelblue;
   height:inherit;
-  overflow-y: scroll;
 }
 
-.blue::-webkit-scrollbar {
-  width: 8px;
-  background-color: transparent;
-}
-
-.blue::-webkit-scrollbar-thumb{
-  width: 8px;
-  background-color: #2C5170;
-}
 
 .row.bottom-row {
   height: 50vmax;
@@ -178,17 +157,6 @@ i:hover{
 .orange {
   background-color: darkorange;
   height: inherit;
-  overflow-y: scroll;
-}
-
-.orange::-webkit-scrollbar {
-  width: 8px;
-  background-color: transparent;
-}
-
-.orange::-webkit-scrollbar-thumb{
-  width: 8px;
-  background-color: #B26200;
 }
 
 .orange p {
@@ -198,18 +166,8 @@ i:hover{
 .green {
   background-color: mediumseagreen;
   height: inherit;
-  overflow-y: scroll;
 }
 
-.green::-webkit-scrollbar{
-    width: 8px;
-    background-color: transparent;
-}
-
-.green::-webkit-scrollbar-thumb{
-    width: 8px;
-    background-color: #2A7D4F;
-}
 
 /* ::::::::::::: footer ::::::::::::: */
 
