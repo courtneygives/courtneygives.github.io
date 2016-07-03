@@ -5,7 +5,7 @@ layout: default
 <!-- ::::::::::::: INTRODUCTION ::::::::::::: -->
 
 <div class="container-fluid">
-  <div class="row top-row">
+  <div class="row top-row row-eq-height">
     <div id="box1" class="col-md-4 gold">
       <h1>Courtney G. Ives</h1>
       <h3>Full Stack Software Development, Web Design, Front-End Engineering, Client-Side Development, Silly Walks, Under-Water Basket-Weaving</h3>
@@ -25,7 +25,7 @@ layout: default
     </div>
 
   </div>
-  <div class="row bottom-row">
+  <div class="row bottom-row row-eq-height">
     <div class="col-md-8 orange">
 
     </div>
@@ -35,7 +35,7 @@ layout: default
       <h1>Drivel</h1>
       <h3>The blog in which Courtney blogs.</h3>
       <ul class="post-list">
-        {% for post in site.posts %}
+        {% for post in site.posts limit:10 %}
         <li>
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
 
