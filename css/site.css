@@ -43,6 +43,18 @@ ul li {
 	margin-bottom: 3px;
 }
 
+.left-img {
+	float: left;
+	max-width: 400px;
+	margin: 0 10px 10px 10px;
+}
+
+.right-img {
+	float: left;
+	max-width: 400px;
+	margin: 10px 10px 10px 0;
+}
+
 .site-title {
 	margin-top: 10px;
 	display: block;

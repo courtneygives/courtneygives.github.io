@@ -15,7 +15,7 @@ At [Prime](http://primeacademy.io), my final three weeks were dedicated to build
 
 The map is a full-stack web application designed for [Project Sweetie Pie](http://http://projectsweetiepie.org/), the non-profit organization dedicated to the North Minneapolis community. The application uses an interactive map of the N. Minneapolis area food resources to engage the community.
 
-![NotN Screen Shot](https://goo.gl/S8GTbw)
+![NotN Screen Shot](https://goo.gl/S8GTbw){:.left-img}
 
 My role in the group consistently gravitated toward styling, but we all thought it was important that we could speak to all aspects of building the app. It was my (perhaps foolish) idea to use [Angular Material](https://material.angularjs.org/latest/) for our forms and buttons-- I say foolish because I ended up changing almost everything about the Material styles, and they do not make that easy. At least we got the neat animations on mouse clicks.
 
