@@ -6,6 +6,7 @@ categories: projects
 ---
 
 ## Nile of the North
+
 ### A food resources map for the North Minneapolis community
 
 At [Prime](http://primeacademy.io), my final three weeks were dedicated to building this map, with four fellow students. Prime pairs students with organizations in a truly mutually beneficial arrangement: The organization gets a free application built rapidly, and the students gain a hugely valuable learning experience while creating it.
