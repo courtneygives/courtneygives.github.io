@@ -5,8 +5,8 @@ date:   2016-07-03 17:00:34
 categories: projects
 ---
 
-## Nile of the North
-#### A food resources map for the North Minneapolis community
+# Nile of the North
+## A food resources map for the North Minneapolis community
 
 At [Prime](http://primeacademy.io), my final three weeks were dedicated to building this map, with four fellow students. Prime pairs students with organizations in a truly mutually beneficial arrangement: The organization gets a free application built rapidly, and the students gain a hugely valuable learning experience while creating it.
 
@@ -25,6 +25,6 @@ Most of my work can be seen in the user administration areas (I snuck yellow in 
 There is a lot about the project that I would love to touch-up, tweak, throw out and start over.... but this was done in three weeks, and I am proud of it because our clients are happy with it. Also, I never seem to want to call something *done*, because nothing is ever perfect. At some point you gotta just "ship it."
 
 ##Technology used
-Javascript, Node, Express, Passport, Angular, MapBox, Angular Material, and PostgreSQL. 
+Javascript, Node, Express, Passport, Angular, MapBox, Angular Material, and PostgreSQL.
 
 The map is live at [north-nile.herokuapp.com](http://north-nile.herokuapp.com).

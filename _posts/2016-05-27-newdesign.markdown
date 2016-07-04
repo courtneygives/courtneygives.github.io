@@ -9,5 +9,4 @@ I've created a new site design using Bootstrap, and I'm in the process of conver
 
 Here's a picture of it:
 
----
 ![new design](https://goo.gl/xp11QE)
