@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "Our map application: Nile of the North"
+title:  "Nile of the North Map"
 date:   2016-07-03 17:00:34
 categories: portfolio
 ---
-
-# Nile of the North
-
 ## A food resources map for the North Minneapolis community
 
 At [Prime](http://primeacademy.io), my final three weeks were dedicated to building this map, with four fellow students. Prime pairs students with organizations in a truly mutually beneficial arrangement: The organization gets a free application built rapidly, and the students gain a hugely valuable learning experience while creating it.
