@@ -5,7 +5,6 @@ date:   2016-05-26
 categories: updates
 ---
 
-
 In November, I was accepted into the Minnesota coding bootcamp *[Prime Digital Academy](http://www.primeacademy.io)*. At the time, it sounded exciting, but I wasn't sure if it was worth the risk of quitting my job in software QA.
 
 The program is 18 weeks, total. The first six are part-time and completed online, but the rest of it is full-time and demands a lot of energy. I deferred my acceptance until February, at which time, I was beyond ready for a change. My job had been stale and tedious as a manual tester. Looking back, with the knowledge I now possess, I realize that nearly everything I had been testing manually, with painstaking effort, could have (and should have) been automated.
