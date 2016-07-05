@@ -1,1 +1,3 @@
+<!-- for pages that should not have a liquid theme applied -->
+
 {{ content }}

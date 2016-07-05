@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: Drivel
-permalink: /blag/
+permalink: /blog/
 ---
 
 <ul class="posts">

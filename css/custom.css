@@ -64,6 +64,23 @@ i:hover{
   color: darkslateblue;
 }
 
+
+.left-img {   /*class to add to markdown syntax*/
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+
+.right-img {   /*class to add to markdown syntax*/
+	float: right;
+	margin: 10px 0 10px 10px;
+}
+
+img {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+
 /* ::::::::::::: Navigation ::::::::::::: */
 
 .navigation {
