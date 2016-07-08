@@ -66,13 +66,13 @@ i:hover{
 
 
 .left-img {   /*class to add to markdown syntax*/
-	float: left;
-	margin: 10px 10px 10px 0;
+  float: left;
+  margin: 10px 10px 10px 0;
 }
 
 .right-img {   /*class to add to markdown syntax*/
-	float: right;
-	margin: 10px 0 10px 10px;
+  float: right;
+  margin: 10px 0 10px 10px;
 }
 
 img {
@@ -95,7 +95,6 @@ img {
 .navigation a {
   color: lightgray;
   border-radius: 0;
-  margin-left: 3px;
 }
 
 .navbar-default {
@@ -134,10 +133,10 @@ img {
 }
 
 /* ::::::::::::: Landing Boxes ::::::::::::: */
-
+/*
 .row.top-row {
   height: 40vmax;
-}
+}*/
 
 .col-md-4, .col-md-8 {
   min-height:300px;
@@ -166,10 +165,10 @@ img {
   height:inherit;
 }
 
-
+/*
 .row.bottom-row {
   height: 50vmax;
-}
+}*/
 
 .orange {
   background-color: darkorange;
@@ -192,16 +191,6 @@ footer h3{
   margin-top: 20px;
 }
 
-
-/* ::::::::::::: mobile rules ::::::::::::: */
-
-@media only screen and (max-width: 500px) {
-    .col-md-4, .col-md-8{
-      height: 300px;
-    }
-
-}
-
 /* ::::::::::::: default layout ::::::::::::: */
 .container-fluid{
   padding: 0;
@@ -209,15 +198,42 @@ footer h3{
 
 .row {
   margin: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
 
 .page-content {
 
 }
 
-.col-lg-10 {
-  background-color: #FAEA99;
+.col-md-10 {
+  background-color: #fbd26f;
   border: 1px solid #333;
-  padding: 15px;
+  padding: 10px;
   margin: 0px;
+}
+
+.sidebar{
+  background-color: #41abae;
+  height: ;
+  padding: 5px;
+  border: 1px solid #333;
+  font-size: 30px;
+}
+
+.sidebar li {
+  display: inline-block;
+}
+
+
+/* ::::::::::::: mobile rules ::::::::::::: */
+
+@media only screen and (max-width: 992px) {
+  .row, .row.top-row, .row.bottom-row{
+    display: inherit;
+  }
+
 }

@@ -12,8 +12,6 @@ Javascript, CSS 3, HTML 5, Bootstrap, Angular Material, Markdown, Jekyll, Liquid
 
 German, Spanish, ASL, Phonetic Transcription, IPA, Linguistics, Caption Writing, Translation, Writing, Editing, Film Production & Editing, Photography, Animal Behavior, Autism & Special Needs Care, Beer Judging & Brewing
 
----
-
 # Experience
 
 
@@ -24,7 +22,6 @@ February - June, 2016 | Bloomington, MN
 
 **Group Project:** *Nile of the North*, A full-stack web application designed for Project Sweetie Pie, the non-profit organization dedicated to the North Minneapolis community. The application uses an interactive map of the N. Minneapolis area food resources to engage the community. Technology: Javascript, Node, Express, Passport, Angular, MapBox, Angular Material, and PostgreSQL.
 
----
 
 ## Tap QA, Software Testing Consultant
 June, 2015 - March, 2016 | Minneapolis, MN
@@ -36,7 +33,6 @@ June, 2015 - March, 2016 | Minneapolis, MN
 - Partnering with developers to fix defects
 - Working within the time limits of the SDLC/sprint cycle
 
----
 
 ## Fraser Autism Services, Developmental Trainee
 2013 - 2014 | Minneapolis, MN
@@ -45,7 +41,6 @@ June, 2015 - March, 2016 | Minneapolis, MN
 - Positively reinforcing good play and social behaviors
 - Scoring child's accomplishments toward behavioral goals
 
----
 
 ## Above the Fold Marketing, Graphic Designer; Social Media Manager
 2011 - 2013 | Burlington, Vermont / Remote
@@ -53,7 +48,6 @@ June, 2015 - March, 2016 | Minneapolis, MN
 - Designing graphic media for clients; designing web sites
 - Providing social media content for clients' social media feeds, including Twitter, Facebook, and Google+
 
----
 
 ## Northern Star Council BSA, Special Needs Program Leader
 2011 - 2012 | Golden Valley, MN
@@ -61,7 +55,6 @@ June, 2015 - March, 2016 | Minneapolis, MN
 - Planning and performing monthly visits to 50 group homes and special education programs in the Twin Cities area
 - Assisting participants with creative and educational projects
 
----
 
 ## Hampshire College Media Services, Media Assistant
 2007 - 2011 | Amherst, MA
@@ -71,14 +64,12 @@ June, 2015 - March, 2016 | Minneapolis, MN
 - Checking sound and video equipment in and out
 - Helping students choose suitable equipment
 
----
 
 ## Carol's Hungry Mind Café, Barista & Cashier
 2006 - 2008 | Middlebury, VT
 
 - Customer service, cash handling, and coffee magic
 
----
 
 # Education
 
@@ -87,19 +78,16 @@ Prime Digital Academy, 2016 | Bloomington, MN
 
 Prime Digital Academy is an 18-week, intensive program designed to prepare students for employment in the software development field. The program focuses on the JavaScript- based MEAN stack (MongoDB, ExpressJS, AngularJS, and NodeJS) with a strong focus on team-based projects and real-world business needs. In addition to teaching hard technical skills, Prime prepares students to be effective in the field as learners, communicators, and team members.
 
----
 
 ## Communicative Disorders Post-baccalaureate
 UW-River Falls, 2015 | River Falls, WI
 
----
 
 ## Bachelor of Liberal Arts
 Hampshire College, 2011 | Amherst, MA
 
 **Senior Thesis:** Transcribed, translated, captioned the German film, Vaya Con Dios, and researched translation loss
 
----
 
 # Volunteer Work
 
