@@ -201,3 +201,23 @@ footer h3{
     }
 
 }
+
+/* ::::::::::::: default layout ::::::::::::: */
+.container-fluid{
+  padding: 0;
+}
+
+.row {
+  margin: auto;
+}
+
+.page-content {
+
+}
+
+.col-lg-10 {
+  background-color: #FAEA99;
+  border: 1px solid #333;
+  padding: 15px;
+  margin: 0px;
+}
