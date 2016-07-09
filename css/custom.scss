@@ -3,24 +3,17 @@
 
 /* ::: Google Fonts :::
 font-family: 'Pacifico', 'Dancing Script', cursive;
-font-family: 'Comfortaa', 'Futura', sans-serif;
-font-family: 'Jura', sans-serif; */
+font-family: 'Comfortaa', 'Futura', sans-serif;*/
 
 /* ::::::::::::: Color Mixins ::::::::::::: */
 /* Coolors Exported Palette - coolors.co/bce784-5dd39e-4f759b-5d536b-81667a */
-/* HSL */
-$color1: hsla(86%, 67%, 71%, 1);
-$color2: hsla(153%, 57%, 60%, 1);
-$color3: hsla(210%, 32%, 46%, 1);
-$color4: hsla(265%, 13%, 37%, 1);
-$color5: hsla(316%, 12%, 45%, 1);
 
 /* RGB */
-$color1: rgba(188, 231, 132, 1);
-$color2: rgba(93, 211, 158, 1);
-$color3: rgba(79, 117, 155, 1);
-$color4: rgba(93, 83, 107, 1);
-$color5: rgba(129, 102, 122, 1);
+$color1: rgba(233, 196, 106, 1);
+$color2: rgba(143, 193, 150, 1);
+$color3: rgba(231, 111, 81, 1);
+$color4: rgba(45, 84, 99, 1);
+$color5: rgba(112, 93, 127, 1);
 $darkgray: #333;
 $lightgray: gray;
 $transwhite: rgba(255,255,255,0.5);
@@ -51,7 +44,7 @@ h2 {
 
 h3{
   font-family: 'Comfortaa', 'Futura', sans-serif;
-  font-size: 19px;
+  font-size: 18px;
   padding: 10px inherit;
 }
 
@@ -59,7 +52,7 @@ h4 {
   padding-top: 3px;
   font-weight: bolder;
   font-family: 'Comfortaa', 'Futura', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 ul {
@@ -81,7 +74,7 @@ a, a.post-link {
 a:hover, a.post-link:hover {
   text-decoration: none;
   text-shadow: -2px 2px 8px $transwhite;
-  color: $darkgray;
+  // color: $darkgray;
 }
 
 i:hover{
@@ -108,7 +101,7 @@ img {
 /* ::::::::::::: Navigation ::::::::::::: */
 
 .navigation {
-  font-family: 'Jura', 'helvetica', serif;
+  font-family: 'Comfortaa', 'Futura', sans-serif;
   font-size: 18px;
   background-color: $darkgray;
   border: 1px solid $darkgray  ;
@@ -117,7 +110,7 @@ img {
 }
 
 .navigation a {
-  color: lightgray;
+  color: beige;
   border-radius: 0;
 }
 
@@ -126,40 +119,30 @@ img {
   background-color: $darkgray;
 }
 
-.nav-pills>li:active>a  {
-  color: black;
-  background-color: #666;
-  border-radius: 0;
+.nav>li>a:hover {
+  background-color: transparent;
 }
-.nav-pills>li:active>a:focus {
-  color: lightgray;
-  background-color: #555;
+
+.nav-pills>li>a  {
+  color: beige;
   border-radius: 0;
 }
 
-.nav-pills>li:active>a:hover {
-  color: lightgray;
-  background-color: #555;
+.nav-pills>li>a:active {
+  color: beige;
   border-radius: 0;
-  text-shadow: none;
 }
 
 .nav-pills>li>a:hover {
-  color: lightgray;
-  background-color: #555;
+  color: $color3;
   border-radius: 0;
   text-shadow: none;
-}
-
-.nav-pills>li>a {
-  color: lightgray;
-  border-radius: 0;
 }
 
 /* ::::::::::::: Landing Boxes ::::::::::::: */
 /*
 .row.top-row {
-  height: 40vmax;
+height: 40vmax;
 }*/
 
 .col-md-4, .col-md-8 {
@@ -179,33 +162,54 @@ img {
   margin-top: 15px;
 }
 
+/* :::::: top-left, intro/icons :::::: */
+
 .gold {
   background-color: $color1;
   height:inherit;
+  h1 {
+    color: $color5;
+  }
 }
 
+/* :::::: top-right, gallery :::::: */
 .blue {
   background-color: $color5;
   height:inherit;
+  color: beige;
+  h1 {
+    color: $color1;
+  }
 }
 
-/*
-.row.bottom-row {
-  height: 50vmax;
-}*/
-
+/* :::::: bottom-left, latest post :::::: */
 .orange {
   background-color: $color3;
+  color: beige;
   height: inherit;
+  h1 {
+    color: $color4;
+  }
+  h4 a {
+    color: $color1;
+  }
+  p {
+    color: $darkgray;
+    padding: 20px;
+  }
 }
 
-.orange p {
-  padding: 20px;
-}
-
+/* :::::: bottom-right, blog list :::::: */
 .green {
-  background-color: $color2;
+  background-color: $color4;
+  color: beige;
   height: inherit;
+  h4 a {
+    color: $color1;
+  }
+  h1 {
+    color: $color2
+  }
 }
 
 
@@ -216,6 +220,7 @@ footer h3{
 }
 
 /* ::::::::::::: default layout ::::::::::::: */
+
 .container-fluid{
   padding: 0;
 }
@@ -229,22 +234,41 @@ footer h3{
   display:         flex;
 }
 
-.page-content {
-
-}
-
-.col-md-10 {
+.default-content {
   background-color: beige;
   border: 1px solid $darkgray;
   padding: 10px;
   margin: 0px;
+  h1 {
+    color: $color2;
+  }
+  h4{
+    color: $color3;
+  }
 }
 
 .sidebar{
   background-color: $color5;
   padding: 5px;
   border: 1px solid $darkgray;
-  font-size: 30px;
+  h3 {
+    padding: 15px 5px;
+  }
+  h1 {
+    color: beige;
+  }
+  a, ul {
+    color: $color1;
+    text-shadow: none;
+    display: flex-block;
+    padding: 15px;
+    margin: 5px auto;
+    font-size: 45px;
+  }
+  i:hover{
+    color: $color3;
+    text-shadow: none;
+  }
 }
 
 .sidebar li {
