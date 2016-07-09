@@ -4,8 +4,29 @@ title: Drivel
 ---
 
 <h1>Latest nonsense...</h1>
-  {% for post in site.posts %}
-  <h4 class="post-meta">{{ post.date | date: "%b %-d, %Y" }}:
-  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h4>
-  <p>{{ post.content | truncatewords: 200}}</p>
-  {% endfor %}
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+<p class="author">
+  <span class="date">{{ post.date }}</span>
+</p>
+<div class="content">
+  {{ post.content }}
+</div>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+  <button><a href="{{ paginator.previous_page_path }}" class="previous">Previous</a></button>
+  {% else %}
+  <button class="previous">Previous</button>
+  {% endif %}
+  <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+  <button><a href="{{ paginator.next_page_path }}" class="next">Next</a></button>
+  {% else %}
+  <button class="next">Next</button>
+  {% endif %}
+</div>

@@ -24,11 +24,12 @@ h2 {
   font-family: 'Pacifico', 'Dancing Script', cursive;
   font-weight: bold;
   margin: 10px 0;
+  font-size: 20px;
 }
 
 h3{
   font-family: 'Jura', 'helvetica', serif;
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px inherit;
 }
 
@@ -36,6 +37,7 @@ h4 {
   padding-top: 3px;
   font-weight: bolder;
   font-family: 'Comfortaa', 'Futura', sans-serif;
+  font-size: 20px;
 }
 
 ul {
@@ -218,7 +220,6 @@ footer h3{
 
 .sidebar{
   background-color: #41abae;
-  height: ;
   padding: 5px;
   border: 1px solid #333;
   font-size: 30px;
