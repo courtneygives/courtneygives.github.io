@@ -18,14 +18,12 @@ title: Drivel
 
 <!-- Pagination links -->
 <div class="pagination">
-  {% if paginator.previous_page %}åßbutton><a href="{{ paginator.previous_page_path }}" class="previous">Previous</a></button>
-  {% else %}
-  <button class="previous">Previous</button>
+  {% if paginator.previous_page %}<a class="btn btn-info" href="{{ paginator.previous_page_path }}">Previous</a>
   {% endif %}
+
   <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
   {% if paginator.next_page %}
-  <button><a href="{{ paginator.next_page_path }}" class="next">Next</a></button>
-  {% else %}
-  <button class="next">Next</button>
+  <a class="btn btn-info" href="{{ paginator.next_page_path }}">Next</a>
   {% endif %}
 </div>

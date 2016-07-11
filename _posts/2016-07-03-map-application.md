@@ -10,7 +10,7 @@ categories: portfolio
 
 At [Prime](http://primeacademy.io), my final three weeks were dedicated to building this map, with four fellow students. Prime pairs students with organizations in a truly mutually beneficial arrangement: The organization gets a free application built rapidly, and the students gain a hugely valuable learning experience while creating it.
 
-The map is a full-stack web application designed for [Project Sweetie Pie](http://http://projectsweetiepie.org/), the non-profit organization dedicated to the North Minneapolis community. The application uses an interactive map of the N. Minneapolis area food resources to engage the community.
+The map is a full-stack web application designed for [Project Sweetie Pie](http://www.projectsweetiepie.org/), the non-profit organization dedicated to the North Minneapolis community. The application uses an interactive map of the N. Minneapolis area food resources to engage the community.
 
 ![NotN Screen Shot](/images/notn-mobile.png){:.left-img width="200px"}
 
