@@ -10,57 +10,52 @@
   <!-- ::::::::::::: INTRODUCTION ::::::::::::: -->
 
   <div class="container-fluid">
-    <div class="row top-row">
-      <div id="box1" class="col-md-4 gold">
-        <h1>Courtney G. Ives</h1>
 
-        <img src="/images/cgives-portrait.JPG" alt="portrait" />
+    <div id="box1" class="row gold">
+      <h1>Courtney G. Ives</h1>
 
-        <h3>Full Stack Software Development, Web Design, Front-End Engineering, Client-Side Development, Silly Walks, Under-Water Basket-Weaving</h3>
+      <img src="/images/cgives-portrait.JPG" alt="portrait" />
 
+      <h3>Full Stack Software Development, Web Design, Front-End Engineering, Client-Side Development, Silly Walks, Under-Water Basket-Weaving</h3>
 
-        <ul class="contact">
-          <li><a href="mailto:cgives@me.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-          <li><a href="http://www.twitter.com/courtneygives"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="http://www.github.com/courtneygives"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/courtney-ives-a7076223"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-          <li><a href="http://www.instagram.com/cgives"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
-
-      <div class="col-md-8 blue">
-        <h1>Gallery</h1>
-        <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/d720bc5b1f685142b90b2fd57cfffae7.html" id="lightwidget_d720bc5b1f" name="lightwidget_d720bc5b1f"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-
-      </div>
+      <ul class="contact">
+        <li><a href="mailto:cgives@me.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.twitter.com/courtneygives"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.github.com/courtneygives"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/courtney-ives-a7076223"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.instagram.com/cgives"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      </ul>
     </div>
 
-    <div class="row bottom-row">
-      <div class="col-md-8 orange">
-        <h1>Latest nonsense...</h1>
-        {% for post in site.posts limit:1 %}
-        <h4 class="post-meta">{{ post.date | date: "%b %-d, %Y" }}:
-          <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h4>
-          <p>{{ post.content | strip_html | truncatewords:250}}</p>
+    <div class="row blue">
+      <h1>Gallery</h1>
+      <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/d720bc5b1f685142b90b2fd57cfffae7.html" id="lightwidget_d720bc5b1f" name="lightwidget_d720bc5b1f"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
+    </div>
+
+    <div class="row orange">
+      <h1>Latest nonsense...</h1>
+      {% for post in site.posts limit:1 %}
+      <h4 class="post-meta">{{ post.date | date: "%b %-d, %Y" }}:
+        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h4>
+
+        <p>{{ post.content | strip_html | truncatewords:250}}</p>
+        {% endfor %}
+      </div>
+
+      <!-- ::::::::::::: CONTACT LINKS ::::::::::::: -->
+      <div class="row green">
+        <h1>Drivel</h1>
+        <h3>The blog in which Courtney blogs.</h3>
+        <ul class="post-list">
+          {% for post in site.posts limit:6 %}
+          <li>
+            <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+
+            <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+          </li>
           {% endfor %}
-
-        </div>
-
-        <!-- ::::::::::::: CONTACT LINKS ::::::::::::: -->
-        <div class="col-md-4 green">
-          <h1>Drivel</h1>
-          <h3>The blog in which Courtney blogs.</h3>
-          <ul class="post-list">
-            {% for post in site.posts limit:6 %}
-            <li>
-              <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-
-              <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-
+        </ul>
       </div>
     </div>
 
