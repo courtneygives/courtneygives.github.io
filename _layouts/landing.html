@@ -10,41 +10,24 @@
   <!-- ::::::::::::: INTRODUCTION ::::::::::::: -->
 
   <div class="container-fluid">
+    <div class="row-eq-height">
+      <div class="col-md-6 blurb">
+        <h1>Courtney G. Ives</h1>
 
-    <div id="box1" class="row gold">
-      <h1>Courtney G. Ives</h1>
+        <img src="/images/cgives-portrait.JPG" alt="portrait" />
 
-      <img src="/images/cgives-portrait.JPG" alt="portrait" />
+        <h3>Full Stack Software Development, Web Design, Front-End Engineering, Client-Side Development, Silly Walks, Under-Water Basket-Weaving</h3>
 
-      <h3>Full Stack Software Development, Web Design, Front-End Engineering, Client-Side Development, Silly Walks, Under-Water Basket-Weaving</h3>
-
-      <ul class="contact">
-        <li><a href="mailto:cgives@me.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-        <li><a href="http://www.twitter.com/courtneygives"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="http://www.github.com/courtneygives"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/courtney-ives-a7076223"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-        <li><a href="http://www.instagram.com/cgives"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-      </ul>
-    </div>
-
-    <div class="row blue">
-      <h1>Gallery</h1>
-      <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/d720bc5b1f685142b90b2fd57cfffae7.html" id="lightwidget_d720bc5b1f" name="lightwidget_d720bc5b1f"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-
-    </div>
-
-    <div class="row orange">
-      <h1>Latest nonsense...</h1>
-      {% for post in site.posts limit:1 %}
-      <h4 class="post-meta">{{ post.date | date: "%b %-d, %Y" }}:
-        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h4>
-
-        <p>{{ post.content | strip_html | truncatewords:250}}</p>
-        {% endfor %}
+        <ul class="contact">
+          <li><a href="mailto:cgives@me.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+          <li><a href="http://www.twitter.com/courtneygives"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="http://www.github.com/courtneygives"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/courtney-ives-a7076223"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          <li><a href="http://www.instagram.com/cgives"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
       </div>
 
-      <!-- ::::::::::::: CONTACT LINKS ::::::::::::: -->
-      <div class="row green">
+      <div class="col-md-6 blog-list">
         <h1>Drivel</h1>
         <h3>The blog in which Courtney blogs.</h3>
         <ul class="post-list">
@@ -58,5 +41,25 @@
         </ul>
       </div>
     </div>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="latest-post">
+      <h1>Latest nonsense...</h1>
+      {% for post in site.posts limit:1 %}
+      <h4 class="post-meta">{{ post.date | date: "%b %-d, %Y" }}:
+        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h4>
+
+        <p>{{ post.content }}</p>
+        {% endfor %}
+      </div>
+
+      <div class="gallery">
+        <h1>Gallery</h1>
+        <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/ae2b2e4c00e55beb9146bccc02f59417.html" id="lightwidget_ae2b2e4c00" name="lightwidget_ae2b2e4c00"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+      </div>
+    </div>
+
 
     {% include footer.html %}
