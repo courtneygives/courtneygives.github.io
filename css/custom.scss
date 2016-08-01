@@ -13,9 +13,6 @@ $gray-medium: rgba(200, 200, 200, 1);
 $gray-dark: rgba(70, 70, 70, 1);
 $gray-black: rgba(37, 36, 35, 1);
 
-$light-shadow: rgba(236, 237, 240, .8);
-$dark-shadow: rgba(20, 20, 20, .8);
-
 $color1: rgba(239, 71, 111, 1);
 $color2: rgba(255, 209, 102, 1);
 $color3: rgba(6, 201, 149, 1);
@@ -33,6 +30,13 @@ $emerald: rgba(143, 193, 150, 1);
 $orange: rgba(231, 111, 81, 1);
 $navy: rgba(45, 84, 99, 1);
 $plum: rgba(112, 93, 127, 1);
+
+$dark-yellow: darken($yellow, 30%);
+$dark-emerald: darken($emerald, 30%);
+$dark-orange: darken($orange, 30%);
+$dark-navy: darken($navy, 10%);
+$dark-plum: darken($plum, 20%);
+
 
 
 
@@ -85,6 +89,7 @@ a, a:visited {
 
 a:hover {
   text-decoration: none;
+  color: $dark-orange;
 }
 
 .left-img {   /*class to add to markdown syntax*/
@@ -102,18 +107,19 @@ img {
   border-radius: 10px;
   margin: 5px;
   display: flex;
+  max-width: 90%;
 }
 
 .btn {
   text-decoration: none;
   font-family: $sans-serif;
-  background-color: $color4;
-  border: 1px solid $color44;
+  background-color: $emerald;
+  border: 1px solid $dark-emerald;
 }
 
 .btn:hover {
-  background-color: darken($color4, 10%);
-  border: 1px solid $color44;
+  background-color: $dark-emerald;
+  border: 1px solid $gray-black;
 }
 
 @media (min-width: 992px) {
@@ -135,7 +141,7 @@ img {
   font-family: $sans-serif;
   font-size: 18px;
   background-color: $gray-dark;
-  border: 3px solid $gray-black;
+  border: 2px solid $gray-black;
   border-radius: 0;
   float: none;
 }
@@ -166,7 +172,7 @@ img {
     border-radius: 0;
   }
   a:hover {
-    color: $color2;
+    color: $orange;
     border-radius: 0;
     text-shadow: none;
     background-color: transparent;
@@ -177,12 +183,11 @@ img {
 /* ::::::::::::: sidebar ::::::::::::: */
 
 .sidebar{
-  background-color: $color5;
+  background-color: $plum;
   padding: 15px;
-  border: 3px solid $color55;
+  border: 2px solid $dark-plum;
   h1 {
-    color: $color55;
-    text-shadow: 1px 1px 1px $dark-shadow;
+    color: $dark-plum;
   }
   ul.side-contact {
     margin: 0;
@@ -194,18 +199,14 @@ img {
     display: inline-flex;
   }
   i {
-    color: $color2;
-    text-shadow: 1px 1px 2px $dark-shadow;
+    color: $yellow;
     font-size: 45px;
-  }
-  p {
-    color: lighten($color5, 30%);
   }
   a {
     text-decoration: none;
-  }
-  a:hover {
-    color: $color22;
+    :hover {
+      color: $orange;
+    }
   }
   @media (max-width: 992px){
     .post-list{
@@ -214,11 +215,34 @@ img {
   }
   .post-list {
     padding: 0;
-  }
-  h3 {
-    margin: 5px;
+    margin-top: 30px;
+    h4 {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    h4 a {
+      color: $gray-medium;
+      text-decoration: none;
+    }
+    a:hover{
+      color: $yellow;
+    }
+    h3 {
+      color: $gray-medium;
+      padding-bottom: 15px;
+      font-size: 19px;
+    }
+    p {
+      color: $dark-plum;
+      margin-bottom: 0;
+      font-family: $fancy-font;
+      font-size: 17px;
+    }
   }
 }
+
+
+
 
 
 /* ::::::::::::: footer ::::::::::::: */
@@ -227,24 +251,27 @@ footer {
   font-family: $sans-serif;
   text-align: center;
   background-color: $gray-dark;
-  border: 3px solid $gray-black;
+  border: 2px solid $gray-black;
   color: $gray-medium;
+  h3 {
+    padding-bottom: 10px;
+  }
 }
 
 /* ::::::::::::: resume ::::::::::::: */
 
 .resume {
   background-color: $gray-light;
-  border: 3px solid $gray-dark;
+  border: 2px solid $gray-dark;
   padding: 30px;
   margin: 0px;
   h4{
     font-family: $sans-serif;
-    color: $color33;
+    color: $dark-emerald;
     font-size: 18px;
   }
   h1 {
-    color: $color5;
+    color: $navy;
     margin-left: -10px;
   }
 }
@@ -255,22 +282,21 @@ footer {
 
 .default-content {
   background-color: $gray-light;
-  border: 3px solid darken($gray-medium, 20%);
+  border: 2px solid $gray-dark;
   padding: 30px;
   margin: 0px;
   h1 {
-    color: $color5;
-    text-shadow: 1px 1px 1px $dark-shadow;
+    color: $plum;
   }
   h2 {
-    color: darken($color22, 10%);
+    color: $dark-emerald;
   }
 }
 
 #post-title {
   font-family: $sans-serif;
   font-size: 30px;
-  color: $color22;
+  color: $emerald;
 }
 
 
@@ -279,19 +305,17 @@ footer {
 /* :::::: intro/icons :::::: */
 
 .blurb {
-  background-color: $color2;
-  border: 3px solid $color22;
+  background-color: $yellow;
+  border: 2px solid $dark-yellow;
   padding: 30px;
   h1 {
-    color: $color22;
-    text-shadow: 1px 1px 1px $dark-shadow;
+    color: $dark-yellow;
   }
   .fa {
-    color: $color5;
-    text-shadow: 1px 1px 1px $dark-shadow;
+    color: $plum;
   }
   .fa:hover{
-    color: $color55;
+    color: $dark-plum;
   }
   img {
     display: block;
@@ -299,62 +323,69 @@ footer {
     max-width: 200px;
     margin: 20px auto;
     border-radius: 50%;
-    border: 3px solid $color22;
-    box-shadow: 1px 1px 5px $dark-shadow;
+    border: 2px solid $dark-yellow;
   }
   p{
     font-size: 20px;
-    color: $color55;
+    color: $dark-plum;
   }
 }
 
 .contact {
   font-size: 45px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .contact li{
-  margin: 15px;
   display: inline-flex;
+  margin: 10px;
 }
 
 /* :::::: blog list :::::: */
 
 .blog-list {
-  background-color: $color4;
-  color: $gray-light;
+  background-color: $plum;
   padding: 30px;
-  border: 3px solid $color44;
+  border: 2px solid $dark-plum;
+  h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
   h4 a {
-    color: $color44;
+    color: $gray-medium;
     text-decoration: none;
   }
   a:hover{
-    color: $color2;
+    color: $yellow;
   }
   h1 {
-    color: $color44;
-    padding-bottom: 10px;
-    text-shadow: 1px 1px 1px $dark-shadow;
+    color: $dark-plum;
+    padding-bottom: 0;
   }
   h3 {
-    color: $gray-light;
-    padding: 5px;
+    color: $emerald;
+    padding-bottom: 15px;
+    font-size: 19px;
   }
   p {
-    color: $gray-medium;
+    color: $dark-plum;
+    margin-bottom: 0;
+    font-family: $fancy-font;
+    font-size: 17px;
   }
 }
 
 /* :::::: latest post :::::: */
 
 .latest-post {
-  background-color: $color3;
+  background-color: $emerald;
   color: $gray-light;
   padding: 30px;
-  border: 3px solid $color33;
+  border: 2px solid $dark-emerald;
   h1 {
-    color: $color33;
-    text-shadow: 1px 1px 1px $dark-shadow;
+    color: $dark-emerald;
   }
   p {
     color: $gray-black;
@@ -369,12 +400,10 @@ footer {
 /* :::::: gallery :::::: */
 
 .gallery {
-  background-color: $color5;
-  color: $gray-medium;
+  background-color: $orange;
   padding: 10px 30px;
-  border: 3px solid $color55;
+  border: 2px solid $dark-orange;
   h1 {
-    color: $color55;
-    text-shadow: 1px 1px 1px $dark-shadow;
+    color: $dark-orange;
   }
 }
