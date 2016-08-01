@@ -7,17 +7,13 @@
 
   {% include header.html %}
 
-  <div class="page-content">
+  <div class="row-eq-height">
+    {% include sidebar.html %}
 
-    <div class="row-eq-height">
-      {% include sidebar.html %}
-
-    <div class="col-md-10 default-content">
+    <div class="col-md-9 default-content">
       {{ content }}
     </div>
   </div>
-</div>
-
 
   {% include footer.html %}
 

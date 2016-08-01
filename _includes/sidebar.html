@@ -1,10 +1,10 @@
-<div class="col-md-2 sidebar">
+<div class="col-md-3 sidebar">
 
   <h1>Courtney Ives</h1>
 
-  <h3>Full Stack Software Development, Web Design, Front-End Engineering, Client-Side Development, Silly Walks, Under-Water Basket-Weaving</h3>
+  <p>Full Stack Software Development, Web Design, Front-End Engineering, Client-Side Development, Silly Walks, Under-Water Basket-Weaving</p>
 
-  <ul>
+  <ul class="side-contact">
     <li><a href="mailto:cgives@me.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
     <li><a href="http://www.twitter.com/courtneygives"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
     <li><a href="http://www.github.com/courtneygives"><i class="fa fa-github" aria-hidden="true"></i></a></li>
@@ -12,8 +12,15 @@
     <li><a href="http://www.instagram.com/cgives"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
   </ul>
 
-  <ul>
-    <li></li>
+  <ul class="post-list">
+    <h1>Drivel</h1>
+    {% for post in site.posts limit:10 %}
+    <li>
+      <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+
+      <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+    </li>
+    {% endfor %}
   </ul>
 
 </div>

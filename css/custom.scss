@@ -1,49 +1,61 @@
 ---
 ---
+// ::::::::::::: Fonts ::::::::::::: //
+$fancy-font: 'Pacifico', 'Dancing Script', cursive;
+$sans-serif: 'Comfortaa', 'Futura', sans-serif;
 
-/* ::: Google Fonts :::
-font-family: 'Pacifico', 'Dancing Script', cursive;
-font-family: 'Comfortaa', 'Futura', sans-serif;*/
+// ::::::::::::: Color Mixins ::::::::::::: //
+// Coolors Exported Palette
 
-/* ::::::::::::: Color Mixins ::::::::::::: */
-/* Coolors Exported Palette - coolors.co/bce784-5dd39e-4f759b-5d536b-81667a */
+$gray-transparent: rgba(255, 255, 255, 0.5);
+$gray-light: rgba(236, 237, 240, 1);
+$gray-medium: rgba(200, 200, 200, 1);
+$gray-dark: rgba(70, 70, 70, 1);
+$gray-black: rgba(37, 36, 35, 1);
 
-/* RGB */
-$color1: rgba(233, 196, 106, 1);
-$color2: rgba(143, 193, 150, 1);
-$color3: rgba(231, 111, 81, 1);
-$color4: rgba(45, 84, 99, 1);
-$color5: rgba(112, 93, 127, 1);
-$darkgray: #333;
-$lightgray: gray;
-$transwhite: rgba(255,255,255,0.5);
+$light-shadow: rgba(236, 237, 240, .8);
+$dark-shadow: rgba(20, 20, 20, .8);
+
+$color1: rgba(239, 71, 111, 1);
+$color2: rgba(255, 209, 102, 1);
+$color3: rgba(6, 201, 149, 1);
+$color4: rgba(47, 140, 170, 1);
+$color5: rgba(132, 95, 130, 1);
+
+$color11: rgba(172, 15, 52, 1);
+$color22: rgba(206, 150, 20, 1);
+$color33: rgba(4, 140, 104, 1);
+$color44: rgba(27, 81, 98, 1);
+$color55: rgba(79, 57, 78, 1);
+
 
 /* ::::::::::::: General Styles ::::::::::::: */
 body {
-  background-color: $darkgray;
+  background-color: $gray-black;
   height: 100%;
   padding-top: 50px;
 }
 
 p {
-  padding-top: 3px;
-  font-family: 'Comfortaa', 'Futura', sans-serif;
+  padding: 3px;
+  font-family: $sans-serif;
+  font-size: 15px;
 }
 
 h1{
-  font-family: 'Pacifico', 'Dancing Script', cursive;
+  font-family: $fancy-font;
   padding: 5px;
 }
 
 h2 {
-  font-family: 'Pacifico', 'Dancing Script', cursive;
+  font-family: $sans-serif;
   font-weight: bold;
   margin: 10px 0;
   font-size: 20px;
 }
 
 h3{
-  font-family: 'Comfortaa', 'Futura', sans-serif;
+  font-family: $sans-serif;
   font-size: 18px;
   padding: 10px inherit;
 }
@@ -51,19 +63,12 @@ h3{
 h4 {
   padding-top: 3px;
   font-weight: bolder;
-  font-family: 'Comfortaa', 'Futura', sans-serif;
+  font-family: $sans-serif;
   font-size: 17px;
 }
 
 ul {
   list-style: none;
-}
-
-footer {
-  font-family: 'Comfortaa', 'Futura', sans-serif;
-  color: $lightgray;
-  height: 50px;
-  text-align: center;
 }
 
 a, a:visited {
@@ -86,7 +91,7 @@ a:hover {
 }
 
 img {
-  border: 2px solid black;
+  border: 2px solid $gray-black;
   border-radius: 10px;
   margin: 5px;
   display: flex;
@@ -94,7 +99,14 @@ img {
 
 .btn {
   text-decoration: none;
-  font-family: 'Comfortaa', 'Futura', sans-serif;
+  font-family: $sans-serif;
+  background-color: $color4;
+  border: 1px solid $color44;
+}
+
+.btn:hover {
+  background-color: darken($color4, 10%);
+  border: 1px solid $color44;
 }
 
 @media (min-width: 992px) {
@@ -113,10 +125,10 @@ img {
 /* ::::::::::::: Navigation ::::::::::::: */
 
 .navigation {
-  font-family: 'Comfortaa', 'Futura', sans-serif;
+  font-family: $sans-serif;
   font-size: 18px;
-  background-color: $color5;
-  border: 1px solid $darkgray  ;
+  background-color: $gray-dark;
+  border: 3px solid $gray-black;
   border-radius: 0;
   float: none;
 }
@@ -126,29 +138,28 @@ img {
 }
 
 .navigation a {
-  color: beige;
+  color: $gray-medium;
   border-radius: 0;
   text-decoration: none;
-  vertical-align:
 }
 
 .navbar-default {
   border: none;
-  background-color: $darkgray;
+  background-color: $gray-black;
   margin: 0;
 }
 
 .nav-pills>li  {
   a {
-    color: beige;
+    color: $gray-medium;
     border-radius: 0;
   }
   a:active {
-    color: beige;
+    color: $gray-medium;
     border-radius: 0;
   }
   a:hover {
-    color: $color3;
+    color: $color2;
     border-radius: 0;
     text-shadow: none;
     background-color: transparent;
@@ -156,23 +167,124 @@ img {
 }
 
 
+/* ::::::::::::: sidebar ::::::::::::: */
+
+.sidebar{
+  background-color: $color5;
+  padding: 15px;
+  border: 3px solid $color55;
+  h1 {
+    color: $color55;
+    text-shadow: 1px 1px 1px $dark-shadow;
+  }
+  ul.side-contact {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .side-contact li {
+    margin: 7px;
+    display: inline-flex;
+  }
+  i {
+    color: $color2;
+    text-shadow: 1px 1px 2px $dark-shadow;
+    font-size: 45px;
+  }
+  p {
+    color: lighten($color5, 30%);
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: $color22;
+  }
+  @media (max-width: 992px){
+    .post-list{
+      display: none;
+    }
+  }
+  .post-list {
+    padding: 0;
+  }
+  h3 {
+    margin: 5px;
+  }
+} 
+
+
+/* ::::::::::::: footer ::::::::::::: */
+
+footer {
+  font-family: $sans-serif;
+  text-align: center;
+  background-color: $gray-dark;
+  border: 3px solid $gray-black;
+  color: $gray-medium;
+}
+
+/* ::::::::::::: resume ::::::::::::: */
+
+.resume {
+  background-color: $gray-light;
+  border: 3px solid $gray-dark;
+  padding: 30px;
+  margin: 0px;
+  h4{
+    font-family: $sans-serif;
+    color: $color33;
+    font-size: 18px;
+  }
+  h1 {
+    color: $color5;
+    margin-left: -10px;
+  }
+}
+
+
+
+/* ::::::::::::: default layout ::::::::::::: */
+
+.default-content {
+  background-color: $gray-light;
+  border: 3px solid darken($gray-medium, 20%);
+  padding: 30px;
+  margin: 0px;
+  h1 {
+    color: $color5;
+    text-shadow: 1px 1px 1px $dark-shadow;
+  }
+  h2 {
+    color: darken($color22, 10%);
+  }
+}
+
+#post-title {
+  font-family: $sans-serif;
+  font-size: 30px;
+  color: $color22;
+}
+
 
 /* ::::::::::::: Landing page ::::::::::::: */
 
 /* :::::: intro/icons :::::: */
 
 .blurb {
-  background-color: $color1;
-  border: 1px solid $darkgray;
+  background-color: $color2;
+  border: 3px solid $color22;
   padding: 30px;
   h1 {
-    color: $color5;
+    color: $color22;
+    text-shadow: 1px 1px 1px $dark-shadow;
   }
   .fa {
-    color: $darkgray;
+    color: $color5;
+    text-shadow: 1px 1px 1px $dark-shadow;
   }
   .fa:hover{
-    color: $color5;
+    color: $color55;
   }
   img {
     display: block;
@@ -180,119 +292,82 @@ img {
     max-width: 200px;
     margin: 20px auto;
     border-radius: 50%;
-    border: 2px solid $color5;
+    border: 3px solid $color22;
+    box-shadow: 1px 1px 5px $dark-shadow;
   }
-
-  .contact {
-    font-size: 45px;
-  }
-
-  .contact li{
-    margin: 15px;
-    display: inline-flex;
-
+  p{
+    font-size: 20px;
+    color: $color55;
   }
 }
 
+.contact {
+  font-size: 45px;
+}
+
+.contact li{
+  margin: 15px;
+  display: inline-flex;
+}
 
 /* :::::: blog list :::::: */
 
 .blog-list {
   background-color: $color4;
-  color: beige;
+  color: $gray-light;
   padding: 30px;
-  border: 1px solid $darkgray;
+  border: 3px solid $color44;
   h4 a {
-    color: $color1;
+    color: $color44;
     text-decoration: none;
   }
   a:hover{
     color: $color2;
   }
   h1 {
-    color: $color2;
+    color: $color44;
     padding-bottom: 10px;
+    text-shadow: 1px 1px 1px $dark-shadow;
+  }
+  h3 {
+    color: $gray-light;
+    padding: 5px;
+  }
+  p {
+    color: $gray-medium;
   }
 }
 
+/* :::::: latest post :::::: */
+
+.latest-post {
+  background-color: $color3;
+  color: $gray-light;
+  padding: 30px;
+  border: 3px solid $color33;
+  h1 {
+    color: $color33;
+    text-shadow: 1px 1px 1px $dark-shadow;
+  }
+  p {
+    color: $gray-black;
+  }
+  img {
+    float: none;
+    display: inline-flex;
+    margin: 10px;
+  }
+}
 
 /* :::::: gallery :::::: */
 
 .gallery {
   background-color: $color5;
-  color: beige;
+  color: $gray-medium;
   padding: 10px 30px;
-  border: 1px solid $darkgray;
+  border: 3px solid $color55;
   h1 {
-    color: $color1;
+    color: $color55;
+    text-shadow: 1px 1px 1px $dark-shadow;
   }
-}
-
-/* :::::: latest post :::::: */
-.latest-post {
-  background-color: $color3;
-  color: beige;
-  padding: 30px;
-  border: 1px solid $darkgray;
-
-  h1 {
-    color: $color4;
-  }
-  h4 a {
-    color: $color1;
-  }
-  p {
-    color: $darkgray;
-  }
-}
-
-
-/* ::::::::::::: footer ::::::::::::: */
-
-footer h3{
-  margin-top: 20px;
-}
-
-/* ::::::::::::: default layout ::::::::::::: */
-
-.default-content {
-  background-color: beige;
-  border: 1px solid $darkgray;
-  padding: 10px;
-  margin: 0px;
-  h1, h1 a {
-    color: $color2;
-    text-decoration: none;
-  }
-  h4, h1 a:hover{
-    color: $color3;
-  }
-}
-
-.sidebar{
-  background-color: $color5;
-  padding: 20px;
-  border: 1px solid $darkgray;
-  h3 {
-    padding: 15px 5px;
-  }
-  h1 {
-    color: beige;
-  }
-  a, ul {
-    color: $color1;
-    text-shadow: none;
-    display: flex-block;
-    padding: 15px;
-    margin: 5px auto;
-    font-size: 45px;
-  }
-  i:hover{
-    color: $color3;
-    text-shadow: none;
-  }
-}
-
-.sidebar li {
-  // display: inline-block;
 }
