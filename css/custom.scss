@@ -1,8 +1,11 @@
 ---
 ---
 // ::::::::::::: Fonts ::::::::::::: //
-$fancy-font: 'Pacifico', 'Dancing Script', cursive;
-$sans-serif: 'Comfortaa', 'Futura', sans-serif;
+
+$font-header: 'Anton', 'Courier New', monospace;
+$font-fancy: 'Give You Glory', cursive;
+$font-normal: 'Muli', 'arial', sans-serif;
+
 
 // ::::::::::::: Color Mixins ::::::::::::: //
 // Coolors Exported Palette
@@ -12,18 +15,6 @@ $gray-light: rgba(236, 237, 240, 1);
 $gray-medium: rgba(200, 200, 200, 1);
 $gray-dark: rgba(70, 70, 70, 1);
 $gray-black: rgba(37, 36, 35, 1);
-
-$color1: rgba(239, 71, 111, 1);
-$color2: rgba(255, 209, 102, 1);
-$color3: rgba(6, 201, 149, 1);
-$color4: rgba(47, 140, 170, 1);
-$color5: rgba(132, 95, 130, 1);
-
-$color11: rgba(172, 15, 52, 1);
-$color22: rgba(206, 150, 20, 1);
-$color33: rgba(4, 140, 104, 1);
-$color44: rgba(27, 81, 98, 1);
-$color55: rgba(79, 57, 78, 1);
 
 $yellow: rgba(233, 196, 106, 1);
 $emerald: rgba(143, 193, 150, 1);
@@ -37,10 +28,8 @@ $dark-orange: darken($orange, 30%);
 $dark-navy: darken($navy, 10%);
 $dark-plum: darken($plum, 20%);
 
-
-
-
 /* ::::::::::::: General Styles ::::::::::::: */
+
 body {
   background-color: $gray-black;
   height: 100%;
@@ -48,37 +37,40 @@ body {
 }
 
 p {
-  padding: 3px;
-  font-family: $sans-serif;
-  font-size: 15px;
+  font-family: $font-normal;
+  font-size: 18px;
 }
 
 h1{
-  font-family: $fancy-font;
-  padding: 5px;
+  font-family: $font-header;
+  font-size: 40px;
+  text-align: center;
+  color: $dark-plum;
 }
 
 h2 {
-  font-family: $sans-serif;
+  font-family: $font-fancy;
+  font-size: 30px;
   font-weight: bold;
-  margin: 10px 0;
-  font-size: 20px;
+  color: $plum;
 }
 
 h3{
-  font-family: $sans-serif;
-  font-size: 18px;
-  padding: 10px inherit;
+  font-family: $font-header;
+  font-size: 20px;
+  color: $navy;
+
 }
 
 h4 {
-  padding-top: 3px;
-  font-weight: bolder;
-  font-family: $sans-serif;
+  font-family: $font-fancy;
   font-size: 17px;
+  color: $navy;
+
 }
 
-ul {
+ol, ul {
+  font-family: $font-header;
   list-style: none;
 }
 
@@ -92,27 +84,17 @@ a:hover {
   color: $dark-orange;
 }
 
-.left-img {   /*class to add to markdown syntax*/
-  float: left;
-  margin: 10px 10px 10px 0;
-}
-
-.right-img {   /*class to add to markdown syntax*/
-  float: right;
-  margin: 10px 0 10px 10px;
-}
-
 img {
   border: 2px solid $gray-black;
   border-radius: 10px;
-  margin: 5px;
-  display: flex;
+  margin: 10px;
+  display: inline-flex;
   max-width: 90%;
 }
 
 .btn {
   text-decoration: none;
-  font-family: $sans-serif;
+  font-family: $font-normal;
   background-color: $emerald;
   border: 1px solid $dark-emerald;
 }
@@ -138,7 +120,6 @@ img {
 /* ::::::::::::: Navigation ::::::::::::: */
 
 .navigation {
-  font-family: $sans-serif;
   font-size: 18px;
   background-color: $gray-dark;
   border: 2px solid $gray-black;
@@ -154,6 +135,7 @@ img {
   color: $gray-medium;
   border-radius: 0;
   text-decoration: none;
+  font-family: $font-header;
 }
 
 .navbar-default {
@@ -184,8 +166,12 @@ img {
 
 .sidebar{
   background-color: $plum;
+  color: $gray-medium;
   padding: 15px;
   border: 2px solid $dark-plum;
+  p {
+    font-size: 18px;
+  }
   h1 {
     color: $dark-plum;
   }
@@ -195,11 +181,11 @@ img {
     text-align: center;
   }
   .side-contact li {
-    margin: 7px;
+    margin: 10px;
     display: inline-flex;
   }
   i {
-    color: $yellow;
+    color: $gray-medium;
     font-size: 45px;
   }
   a {
@@ -217,8 +203,9 @@ img {
     padding: 0;
     margin-top: 30px;
     h4 {
-      margin-top: 0;
+      margin-top: 5px;
       margin-bottom: 20px;
+      font-size: 20px;
     }
     h4 a {
       color: $gray-medium;
@@ -235,7 +222,7 @@ img {
     p {
       color: $dark-plum;
       margin-bottom: 0;
-      font-family: $fancy-font;
+      font-family: $font-header;
       font-size: 17px;
     }
   }
@@ -248,31 +235,43 @@ img {
 /* ::::::::::::: footer ::::::::::::: */
 
 footer {
-  font-family: $sans-serif;
+  font-family: $font-normal;
   text-align: center;
   background-color: $gray-dark;
   border: 2px solid $gray-black;
-  color: $gray-medium;
-  h3 {
-    padding-bottom: 10px;
+  h4 {
+    padding: 5px;
+    color: $gray-medium;
+    font-size: 20px;
   }
 }
 
 /* ::::::::::::: resume ::::::::::::: */
 
 .resume {
-  background-color: $gray-light;
+  background-color: white;
   border: 2px solid $gray-dark;
   padding: 30px;
   margin: 0px;
   h4{
-    font-family: $sans-serif;
-    color: $dark-emerald;
-    font-size: 18px;
+    font-family: $font-header;
+    color: $emerald;
+    font-size: 25px;
+    padding: 20px 0 0 0;
   }
   h1 {
     color: $navy;
     margin-left: -10px;
+  }
+  h3 {
+    font-family: $font-header;
+    line-height: 1.5;
+    color: $plum;
+  }
+  h2 {
+    margin: 1px;
+    color: $emerald;
+    font-size: 20px;
   }
 }
 
@@ -281,7 +280,7 @@ footer {
 /* ::::::::::::: default layout ::::::::::::: */
 
 .default-content {
-  background-color: $gray-light;
+  background-color: white;
   border: 2px solid $gray-dark;
   padding: 30px;
   margin: 0px;
@@ -294,9 +293,10 @@ footer {
 }
 
 #post-title {
-  font-family: $sans-serif;
-  font-size: 30px;
+  font-family: $font-fancy;
+  font-size: 40px;
   color: $emerald;
+  font-weight: bold;
 }
 
 
@@ -305,17 +305,19 @@ footer {
 /* :::::: intro/icons :::::: */
 
 .blurb {
-  background-color: $yellow;
-  border: 2px solid $dark-yellow;
+  background-color: $plum;
+  border: 2px solid $dark-plum;
   padding: 30px;
   h1 {
-    color: $dark-yellow;
+    color: $dark-plum;
+    font-size: 48px;
+    text-align: center;
   }
   .fa {
-    color: $plum;
+    color: $gray-medium;
   }
   .fa:hover{
-    color: $dark-plum;
+    color: $emerald;
   }
   img {
     display: block;
@@ -323,11 +325,12 @@ footer {
     max-width: 200px;
     margin: 20px auto;
     border-radius: 50%;
-    border: 2px solid $dark-yellow;
+    border: 3px solid $dark-plum;
   }
   p{
-    font-size: 20px;
-    color: $dark-plum;
+    font-size: 22px;
+    color: $gray-medium;
+    text-align: center;
   }
 }
 
@@ -346,64 +349,86 @@ footer {
 /* :::::: blog list :::::: */
 
 .blog-list {
-  background-color: $plum;
+  background-color: $gray-light;
   padding: 30px;
-  border: 2px solid $dark-plum;
-  h4 {
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
-  h4 a {
-    color: $gray-medium;
+  border: 2px solid $gray-dark;
+  color: $dark-orange;
+  text-align: center;
+  h4  {
+    color: $dark-emerald;
     text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: $font-fancy;
+    margin: 2px 0 10px 0;
+    a {
+      text-decoration: none;
+    }
   }
   a:hover{
-    color: $yellow;
+    color: $orange;
   }
   h1 {
-    color: $dark-plum;
+    color: $navy;
     padding-bottom: 0;
+    text-align: center;
+    font-size: 40px;
   }
   h3 {
+    font-size: 23px;
     color: $emerald;
-    padding-bottom: 15px;
-    font-size: 19px;
   }
   p {
-    color: $dark-plum;
-    margin-bottom: 0;
-    font-family: $fancy-font;
-    font-size: 17px;
+    color: $navy;
+    font-family: $font-header;
+    font-size: 20px;
   }
-}
+  .post-list {
+    display: inline-block;
+    padding: 10px;
+    margin: 2px auto;
+    }
+  }
 
-/* :::::: latest post :::::: */
+  /* :::::: latest post :::::: */
 
-.latest-post {
-  background-color: $emerald;
-  color: $gray-light;
-  padding: 30px;
-  border: 2px solid $dark-emerald;
-  h1 {
-    color: $dark-emerald;
+  .latest-post {
+    background-color: $gray-medium;
+    color: $navy;
+    padding: 30px;
+    border: 2px solid $gray-dark;
+    h1 {
+      color: $navy;
+      font-size: 40px;
+    }
+    p {
+      color: $gray-black;
+    }
+    img {
+      float: none;
+      display: inline-flex;
+      margin: 10px;
+    }
+    h4 {
+      font-size: 35px;
+      font-weight: bold;
+      text-align: center;
+      color: $plum;
+      padding-top: 15px;
+      a {
+        color: $dark-plum;
+        text-decoration: none;
+      }
+    }
   }
-  p {
-    color: $gray-black;
-  }
-  img {
-    float: none;
-    display: inline-flex;
-    margin: 10px;
-  }
-}
 
-/* :::::: gallery :::::: */
+  /* :::::: gallery :::::: */
 
-.gallery {
-  background-color: $orange;
-  padding: 10px 30px;
-  border: 2px solid $dark-orange;
-  h1 {
-    color: $dark-orange;
+  .gallery {
+    background-color: $gray-light;
+    padding: 10px 30px;
+    border: 2px solid $gray-dark;
+    h1 {
+      color: $emerald;
+    }
   }
-}
