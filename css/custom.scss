@@ -46,6 +46,7 @@ h1{
   font-size: 40px;
   text-align: center;
   color: $dark-plum;
+  text-shadow: 1px 2px 1px $gray-dark;
 }
 
 h2 {
@@ -59,14 +60,12 @@ h3{
   font-family: $font-header;
   font-size: 20px;
   color: $navy;
-
 }
 
 h4 {
   font-family: $font-fancy;
   font-size: 17px;
   color: $navy;
-
 }
 
 ol, ul {
@@ -86,8 +85,9 @@ a:hover {
 
 img {
   border: 2px solid $gray-black;
-  border-radius: 10px;
-  margin: 10px;
+  box-shadow: 1px 2px 1px $gray-dark;
+  border-radius: 6px;
+  padding: auto;
   display: inline-flex;
   max-width: 90%;
 }
@@ -136,6 +136,7 @@ img {
   border-radius: 0;
   text-decoration: none;
   font-family: $font-header;
+  text-shadow: 1px 2px 1px $gray-black;
 }
 
 .navbar-default {
@@ -149,15 +150,12 @@ img {
     color: $gray-medium;
     border-radius: 0;
   }
-  a:active {
-    color: $gray-medium;
-    border-radius: 0;
-  }
   a:hover {
-    color: $orange;
+    color: $yellow;
     border-radius: 0;
     text-shadow: none;
     background-color: transparent;
+    text-shadow: 1px 2px 1px $gray-black;
   }
 }
 
@@ -255,7 +253,7 @@ footer {
   margin: 0px;
   h4{
     font-family: $font-header;
-    color: $emerald;
+    color: lighten($navy, 20%);
     font-size: 25px;
     padding: 20px 0 0 0;
   }
@@ -264,13 +262,13 @@ footer {
     margin-left: -10px;
   }
   h3 {
-    font-family: $font-header;
-    line-height: 1.5;
-    color: $plum;
+    font-family: $font-normal;
+    line-height: 1.2;
+    color: $gray-dark;
   }
   h2 {
     margin: 1px;
-    color: $emerald;
+    color: lighten($navy, 20%);
     font-size: 20px;
   }
 }
@@ -355,7 +353,7 @@ footer {
   color: $dark-orange;
   text-align: center;
   h4  {
-    color: $dark-emerald;
+    color: $dark-orange;
     text-decoration: none;
     font-size: 26px;
     font-weight: bold;
@@ -376,7 +374,7 @@ footer {
   }
   h3 {
     font-size: 23px;
-    color: $emerald;
+    color: $orange;
   }
   p {
     color: $navy;
@@ -393,10 +391,10 @@ footer {
   /* :::::: latest post :::::: */
 
   .latest-post {
-    background-color: $gray-medium;
+    background-color: desaturate($yellow, 5%);
     color: $navy;
     padding: 30px;
-    border: 2px solid $gray-dark;
+    border: 2px solid $dark-yellow;
     h1 {
       color: $navy;
       font-size: 40px;
@@ -409,14 +407,17 @@ footer {
       display: inline-flex;
       margin: 10px;
     }
+    h2 {
+      color: $navy;
+    }
     h4 {
-      font-size: 35px;
-      font-weight: bold;
+      font-size: 38px;
       text-align: center;
+      font-weight: bold;
       color: $plum;
       padding-top: 15px;
       a {
-        color: $dark-plum;
+        color: $plum;
         text-decoration: none;
       }
     }
@@ -425,10 +426,10 @@ footer {
   /* :::::: gallery :::::: */
 
   .gallery {
-    background-color: $gray-light;
+    background-color: $emerald;
     padding: 10px 30px;
-    border: 2px solid $gray-dark;
+    border: 2px solid $dark-emerald;
     h1 {
-      color: $emerald;
+      color: $dark-emerald;
     }
   }
