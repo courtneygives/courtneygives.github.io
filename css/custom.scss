@@ -92,6 +92,14 @@ img {
   max-width: 90%;
 }
 
+.float-right {
+  float:right;
+}
+
+.float-left{
+  float: left;
+}
+
 .btn {
   text-decoration: none;
   font-family: $font-normal;
@@ -403,8 +411,7 @@ footer {
       color: $gray-black;
     }
     img {
-      float: none;
-      display: inline-flex;
+      float: right;
       margin: 10px;
     }
     h2 {
@@ -426,10 +433,20 @@ footer {
   /* :::::: gallery :::::: */
 
   .gallery {
+    clear: right;
     background-color: $emerald;
     padding: 10px 30px;
     border: 2px solid $dark-emerald;
     h1 {
       color: $dark-emerald;
+    }
+  }
+
+  @media (max-width: 992px){
+    img{
+      float: none;
+      display: block;
+      margin: 5px auto;
+      max-width: 98%;
     }
   }
