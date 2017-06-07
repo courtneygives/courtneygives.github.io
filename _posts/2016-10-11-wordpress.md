@@ -13,8 +13,8 @@ There wasn't a lot wrong with the CMSs I tried, but none of them had any real ad
 
 I am interested in writing Python or Ruby code far more than I am in PHP, but that is not how one should base a decision like this. I went back to Wordpress because it was going to be best for my client for a couple of reasons:
 
-1. First, she knows how to use Wordpress
-2. Second, there are a LOT of plugins and tools for Wordpress
+- First, she knows how to use Wordpress
+- Second, there are a LOT of plugins and tools for Wordpress
 
 Those are sort of disappointing reasons to choose a tool, because as a developer, I confess, I want to use the coolest, shiniest thing. But if I want people to be able to use the things I develop, I need to avoid certain shiny things that may be fun for me, and really confusing and unnecessary for them. I also need to be sure that my reason for using or not using something contains very few instances of the word "cool."
 

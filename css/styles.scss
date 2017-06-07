@@ -1,5 +1,6 @@
 ---
 ---
+
 // ::::::::::::: Fonts ::::::::::::: //
 
 $font-header: 'Anton', 'Courier New', monospace;
@@ -68,11 +69,6 @@ h4 {
   color: $navy;
 }
 
-ol, ul {
-  font-family: $font-header;
-  list-style: none;
-}
-
 a, a:visited {
   text-decoration: underline;
   color: inherit;
@@ -91,9 +87,12 @@ img {
   display: inline-flex;
   max-width: 90%;
 }
+ li {
+   font-size: 16px;
+ }
 
 .float-right {
-  float:right;
+  float: right;
 }
 
 .float-left{
@@ -186,13 +185,17 @@ img {
     padding: 0;
     text-align: center;
   }
+  li {
+    list-style: none;
+  }
   .side-contact li {
     margin: 10px;
     display: inline-flex;
   }
   i {
     color: $gray-medium;
-    font-size: 45px;
+    font-size: 35px;
+    padding-bottom: 10px;
   }
   a {
     text-decoration: none;
@@ -208,22 +211,20 @@ img {
   .post-list {
     padding: 0;
     margin-top: 30px;
+    h1 {
+      font-size: 35px;
+    }
     h4 {
       margin-top: 5px;
-      margin-bottom: 20px;
-      font-size: 20px;
+      margin-bottom: 15px;
     }
     h4 a {
       color: $gray-medium;
       text-decoration: none;
+      font-size: 22px;
     }
     a:hover{
       color: $yellow;
-    }
-    h3 {
-      color: $gray-medium;
-      padding-bottom: 15px;
-      font-size: 19px;
     }
     p {
       color: $dark-plum;
@@ -233,8 +234,6 @@ img {
     }
   }
 }
-
-
 
 
 
@@ -259,6 +258,9 @@ footer {
   border: 2px solid $gray-dark;
   padding: 30px;
   margin: 0px;
+  .position-title {
+    text-align: center;
+  }
   h4{
     font-family: $font-header;
     color: lighten($navy, 20%);
@@ -275,9 +277,22 @@ footer {
     color: $gray-dark;
   }
   h2 {
-    margin: 1px;
-    color: lighten($navy, 20%);
+    margin: 10px 0 5px 0;
+    color: $navy;
     font-size: 20px;
+  }
+  p {
+    padding-bottom: 10px;
+  }
+  .resume-summary {
+    width: 90%;
+    margin: 10px auto;
+    font-size: 20px;
+  }
+  li {
+    font-size: 16px;
+    list-style: square;
+    color: $navy;
   }
 }
 
@@ -290,11 +305,11 @@ footer {
   border: 2px solid $gray-dark;
   padding: 30px;
   margin: 0px;
-  h1 {
-    color: $plum;
+  header {
+    padding-bottom: 10px;
   }
-  h2 {
-    color: $dark-emerald;
+  h1, h2 {
+    color: $plum;
   }
 }
 
@@ -321,6 +336,7 @@ footer {
   }
   .fa {
     color: $gray-medium;
+    font-size: 35px;
   }
   .fa:hover{
     color: $emerald;
@@ -352,80 +368,89 @@ footer {
   margin: 10px;
 }
 
+
 /* :::::: blog list :::::: */
 
 .blog-list {
-  background-color: $gray-light;
-  padding: 30px;
-  border: 2px solid $gray-dark;
-  color: $dark-orange;
-  text-align: center;
-  h4  {
+  background-color: $emerald;
+  border: 2px solid $dark-emerald;
+  color: $gray-light;
+  padding: 35px 10px;
+  .post-list {
+  }
+  ol, ul {
+    color: $dark-emerald;
+    font-family: $font-header;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 20px auto;
+
+  }
+  li a {
     color: $dark-emerald;
     text-decoration: none;
     font-size: 26px;
+    padding-top: 12px;
     font-weight: bold;
     font-family: $font-fancy;
-    margin: 2px 0 10px 0;
-    a {
-      text-decoration: none;
+    display: inline-block;
+    &:hover {
+      text-shadow: 1px 2px 1px $gray-dark;
     }
   }
-  a:hover{
-    color: $navy;
-  }
   h1 {
-    color: $navy;
+    color: $dark-emerald;
     padding-bottom: 0;
     text-align: center;
     font-size: 40px;
   }
   h3 {
+    color: $gray-light;
     font-size: 23px;
-    color: $emerald;
+    text-align: center;
   }
-  p {
-    color: $navy;
-    font-family: $font-header;
-    font-size: 20px;
+  p.post-meta {
+    display: none;
   }
-  .post-list {
-    display: inline-block;
-    padding: 10px;
-    margin: 2px auto;
-    }
-  }
+}
+
 
   /* :::::: latest post :::::: */
 
   .latest-post {
     background-color: desaturate($yellow, 5%);
-    color: $navy;
+    color: $gray-black;
     padding: 30px;
     border: 2px solid $dark-yellow;
     h1 {
-      color: $navy;
+      color: $dark-yellow;
       font-size: 40px;
     }
     p {
+      padding-top: 8px;
       color: $gray-black;
     }
     img {
       float: right;
       margin: 10px;
     }
-    h2 {
-      color: $navy;
-    }
     h4 {
       font-size: 38px;
       text-align: center;
       font-weight: bold;
-      color: $plum;
+      color: $dark-yellow;
       padding-top: 15px;
-      a {
-        color: $plum;
-        text-decoration: none;
+    }
+    li {
+      padding-top: 5px;
+      font-family: $font-normal;
+    }
+    a {
+      color: $dark-yellow;
+      text-decoration: none;
+      &:hover {
+        text-shadow: 1px 2px 1px transparentize($gray-dark, .4);
       }
     }
   }
@@ -434,11 +459,12 @@ footer {
 
   .gallery {
     clear: right;
-    background-color: $emerald;
+    background-color: $orange;
     padding: 10px 30px;
-    border: 2px solid $dark-emerald;
+    border: 2px solid $dark-orange;
     h1 {
-      color: $dark-emerald;
+      padding: 10px;
+      color: $dark-orange;
     }
   }
 
