@@ -10,7 +10,7 @@
   <!-- ::::::::::::: INTRODUCTION ::::::::::::: -->
 
   <div class="container-fluid">
-    <div class="row-eq-height">
+    <div class="row row-eq-height">
       <div class="col-md-6 blurb">
         <h1>Courtney G. Ives</h1>
 
@@ -44,7 +44,9 @@
 
   <div class="container-fluid">
 
-    <div class="latest-post">
+    <div class="row latest-post">
+      <div class="col-md-12">
+
       <h1>Latest nonsense...</h1>
       {% for post in site.posts limit:1 %}
       <h4 class="post-meta"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h4>
@@ -52,12 +54,17 @@
         <p>{{ post.content }}</p>
         {% endfor %}
       </div>
+      </div>
 
-      <div class="gallery">
+
+      <div class="row gallery">
+        <div class="col-md-12">
 
         <h1>Photo Gallery</h1>
         <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/ae2b2e4c00e55beb9146bccc02f59417.html" id="lightwidget_ae2b2e4c00" name="lightwidget_ae2b2e4c00"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
       </div>
+    </div>
+
     </div>
 
 
