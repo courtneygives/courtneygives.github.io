@@ -8,8 +8,7 @@ Over the July 4th weekend, [my husband](http://alex.ives.mn) and I built an Andr
 
 ## What does it do, Courtney?
 
-It's a score-keeping app, specifically for the card game [Star Realms](http://www.starrealms.com/), a fairly simple deck building game that we like to play.
-
+It's a score-keeping app, specifically for the card game [Star Realms](http://www.starrealms.com/), a fairly simple deck building game we like to play.
 
 ![](/images/sc-2player.png){: width="200px"}
 ![](/images/sc-4player.png){: width="200px"}
