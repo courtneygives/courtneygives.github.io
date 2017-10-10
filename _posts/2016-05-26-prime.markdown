@@ -11,6 +11,8 @@ The program is 18 weeks, total. The first six are part-time and completed online
 
 It would have been nice if I had chronicled each week's activities and topics at Prime as I went, but the whole time, it was like trying to "drink from a firehose." In other words, Prime made us work hard-- especially the first six weeks in class.
 
+------
+
 First, we reviewed what we had done online: the basics of JavaScript, jQuery, HTML5, and CSS3. Before we even got to class, I had coded a lot in each language, and had begun to think like a software engineer.
 
 We arrived in class and spent the first several days reviewing what we had learned online, and doing a lot of group white-board exercises. Soon, we were beyond the white-board and were pair-programming little apps in jQuery.
@@ -24,6 +26,8 @@ We are now on week 10. Two more to go. Weeks 7 and 8 were dedicated to a solo-pr
   - Sophomore = Firehose Time (weeks 1-6)
   - Junior = Solo Project (weeks 7, 8)
   - Senior = Group Project (weeks 9, 10, 11, and maybe a bit of 12).
+
+------
 
 Now that I'm a senior (this really isn't a thing at Prime, but I'm going with it), I really feel like I'm a few months or a year ahead of where I was last. It's so strange to think that there was a time (just a few months ago) that I was a virgin to standing up a server. I thought JavaScript and Java were coffee shops. Alright, that's an exaggeration, but I assumed they were related (Java is to JavaScript as ham is to hamster, as car is to carpet).
 

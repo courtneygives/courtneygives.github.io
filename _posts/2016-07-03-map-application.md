@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nile of the North Map"
-date:   2016-07-03 17:00:34
+date:   2016-07-03
 categories: portfolio
 ---
 ### A food resources map for the North Minneapolis community
