@@ -3,7 +3,38 @@ body {
   background-color: $color-white;
   color: $color3;
   font-family: $font-body;
+  height: 1000px;
+}
+
+.coffee-rings {
+  opacity: .6;
+  position: fixed;
+  top: 100px;
+  right: 5px;
+  width: 100%;
+  height: 300px;
+  z-index: -100;
   background-image: url("/art/coffee-ring.jpg");
   background-repeat: no-repeat;
-  background-position: 98% 100px;
+  background-size: contain;
+  background-position: right;
+}
+
+header {
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: $color-white;
+  border-top: 3px solid $color1;
+  border-bottom: 3px solid $color2;
+  box-shadow: $shadow;
+  a {
+    color: $color3;
+    &:hover {
+
+    }
+  }
+}
+
+main {
+  margin-top: 100px;
 }
