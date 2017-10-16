@@ -1,0 +1,47 @@
+
+// ::::: colors ::::: //
+
+// coolors.co/f7ce5b-ee6c4d-564138-20a39e-297373
+$color1: rgba(247, 206, 91, 1);
+$color2: rgba(238, 108, 77, 1);
+$color3: rgba(86, 65, 56, 1);
+$color4: rgba(32, 163, 158, 1);
+$color5: rgba(41, 115, 115, 1);
+
+$color-white: #fff;
+
+// ::::: typography ::::: //
+
+$font-body: 'helvetica', sans-serif;
+$font-heading: 'consolas', monospace;
+
+p {
+  font-size: 14px;
+}
+
+h1 {
+  font-family: $font-heading;
+  color: $color5;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: $font-heading;
+  color: $color4;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: $font-heading;
+  color: $color2;
+  font-size: 16px;
+}
+
+// ::::: links ::::: //
+a {
+  color: $color4;
+  &:hover {
+    color: $color5;
+    text-decoration: none;
+  }
+}
