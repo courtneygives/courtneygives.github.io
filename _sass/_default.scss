@@ -1,9 +1,8 @@
 
 body {
   background: url('/art/ricepaper2.png');
-  color: $color3;
+  color: $color-black;
   font-family: $font-body;
-  height: 1000px;
 }
 
 .coffee-ring {
@@ -17,17 +16,15 @@ body {
   &-upper {
     top: 100px;
     right: 20px;
-    background-image: url("/art/1.png");
+    background-image: url('/art/1.png');
     background-position: right;
   }
   &-lower {
     bottom: 50px;
     left: 20px;
-    background-image: url("/art/10.png");
+    background-image: url('/art/10.png');
     background-position: left;
   }
-
-
 }
 
 header {

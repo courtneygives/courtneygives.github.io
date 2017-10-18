@@ -3,20 +3,31 @@
 
 // coolors.co/f7ce5b-ee6c4d-564138-20a39e-297373
 $color1: rgba(247, 206, 91, 1);
-$color2: rgba(238, 108, 77, 1);
-$color3: rgba(86, 65, 56, 1);
+$color2: rgba(150, 100, 69, 1);
+$color3: rgba(94, 63, 50, 1);
 $color4: rgba(32, 163, 158, 1);
 $color5: rgba(41, 115, 115, 1);
 
 $color-white: #fff;
+$color-black: #000;
 
-$shadow: 0px 2px 5px #ccc;
+$shadow: 0px 2px 5px #666;
 
 
 // ::::: typography ::::: //
 
-$font-body: 'helvetica', sans-serif;
-$font-heading: 'consolas', monospace;
+@font-face {
+  font-family: 'Raleway';
+  src:  url('/fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('/fonts/Pacifico-Regular.ttf');
+}
+
+$font-body: 'Raleway', sans-serif;
+$font-heading: 'Pacifico', cursive;
 
 p {
   font-size: 14px;
@@ -29,15 +40,16 @@ h1 {
 }
 
 h2 {
-  font-family: $font-heading;
+  font-family: $font-body;
   color: $color4;
   font-size: 18px;
 }
 
 h3 {
-  font-family: $font-heading;
-  color: $color2;
+  font-family: $font-body;
+  color: $color5;
   font-size: 16px;
+  font-weight: bold;
 }
 
 // ::::: links ::::: //
