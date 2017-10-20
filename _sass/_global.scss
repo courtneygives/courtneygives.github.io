@@ -1,62 +1,79 @@
 
-// ::::: colors ::::: //
-
-// coolors.co/f7ce5b-ee6c4d-564138-20a39e-297373
-$color1: rgba(247, 206, 91, 1);
-$color2: rgba(150, 100, 69, 1);
-$color3: rgba(94, 63, 50, 1);
-$color4: rgba(32, 163, 158, 1);
-$color5: rgba(41, 115, 115, 1);
-
-$color-white: #fff;
-$color-black: #000;
-
-$shadow: 0px 2px 5px #666;
-
-
-// ::::: typography ::::: //
-
-@font-face {
-  font-family: 'Raleway';
-  src:  url('/fonts/Raleway-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Pacifico';
-  src: url('/fonts/Pacifico-Regular.ttf');
-}
-
-$font-body: 'Raleway', sans-serif;
-$font-heading: 'Pacifico', cursive;
-
-p {
-  font-size: 14px;
-}
-
-h1 {
-  font-family: $font-heading;
-  color: $color5;
-  font-size: 20px;
-}
-
-h2 {
+body {
+  background: url('/art/ricepaper2.png');
+  color: $color-black;
   font-family: $font-body;
-  color: $color4;
-  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-h3 {
-  font-family: $font-body;
-  color: $color5;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-// ::::: links ::::: //
-a {
-  color: $color4;
-  &:hover {
-    color: $color5;
-    text-decoration: none;
+.coffee-ring {
+  position: fixed;
+  z-index: -100;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 250px;
+  width: 100%;
+  transition: all .5s;
+  &-upper {
+    opacity: .4;
+    top: 70px;
+    right: 20px;
+    background-image: url('/art/1.png');
+    background-position: right;
+    // larger devices:
+    @media (min-width: $breakpoint-lg) {
+      opacity: .8;
+    }
   }
+  &-lower {
+    opacity: 0;
+    bottom: 70px;
+    left: 20px;
+    background-image: url('/art/10.png');
+    background-position: left;
+    // larger devices:
+    @media (min-width: $breakpoint-lg) {
+      opacity: .8;
+    }
+  }
+}
+
+header {
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: $color-white;
+  border-bottom: 3px solid $color5;
+  box-shadow: $shadow;
+  a {
+    color: $color3;
+    &:hover {
+
+    }
+  }
+}
+
+.site-wrapper {
+  flex: 1;
+}
+
+.container {
+  max-width: 900px;
+}
+
+main {
+  margin-top: 100px;
+  border-radius: 5px;
+  background: transparentize($color-white, .4);
+}
+
+footer {
+  margin-top: 10px;
+  border-top: 3px solid $color5;
+  background-color: $color-white;
+  padding-top: 15px;
+  flex: none;
+  width: 100%;
+  text-align: center;
 }

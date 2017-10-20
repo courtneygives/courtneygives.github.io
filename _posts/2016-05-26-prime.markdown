@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Best Decision I Ever Made"
+date:   2016-05-26
+categories: updates
+---
+
+In November, I was accepted into the Minnesota coding bootcamp *[Prime Digital Academy](http://www.primeacademy.io)*. At the time, it sounded exciting, but I wasn't sure if it was worth the risk of quitting my job in software QA.
+
+The program is 18 weeks, total. The first six are part-time and completed online, but the rest of it is full-time and demands a lot of energy. I deferred my acceptance until February, at which time, I was beyond ready for a change. My job had been stale and tedious as a manual tester. Looking back, with the knowledge I now possess, I realize that nearly everything I had been testing manually, with painstaking effort, could have (and should have) been automated.
+
+It would have been nice if I had chronicled each week's activities and topics at Prime as I went, but the whole time, it was like trying to "drink from a firehose." In other words, Prime made us work hard-- especially the first six weeks in class.
+
+------
+
+First, we reviewed what we had done online: the basics of JavaScript, jQuery, HTML5, and CSS3. Before we even got to class, I had coded a lot in each language, and had begun to think like a software engineer.
+
+We arrived in class and spent the first several days reviewing what we had learned online, and doing a lot of group white-board exercises. Soon, we were beyond the white-board and were pair-programming little apps in jQuery.
+
+When we were introduced to AngularJS, it seemed like magic compared to jQuery (which had seemed like magic compared to vanilla JS... it's a process). I have since learned how each of them have their use cases, and that I should select the best tool for the job.
+
+By week three or four, I found myself missing the relative comfort of the client side. We were knee-deep in servers and databases. We learned about Node, Express, MongoDB, and PostgreSQL, which had been completely foreign to me before. By the time one thing started to make sense, we were on to the next thing.
+
+We are now on week 10. Two more to go. Weeks 7 and 8 were dedicated to a solo-project of our design, and served as a cruel lesson about biting off more than one can chew. Last week, the group projects began! If Prime could be divided college-style, it would be something like this:
+  - Freshman = Pre-Work (weeks -6-0)
+  - Sophomore = Firehose Time (weeks 1-6)
+  - Junior = Solo Project (weeks 7, 8)
+  - Senior = Group Project (weeks 9, 10, 11, and maybe a bit of 12).
+
+------
+
+Now that I'm a senior (this really isn't a thing at Prime, but I'm going with it), I really feel like I'm a few months or a year ahead of where I was last. It's so strange to think that there was a time (just a few months ago) that I was a virgin to standing up a server. I thought JavaScript and Java were coffee shops. Alright, that's an exaggeration, but I assumed they were related (Java is to JavaScript as ham is to hamster, as car is to carpet).
+
+My group is five of us, working on a project for a non-profit. They asked us to build an online map of food resources for North Minneapolis, and we're doing quite well with it, so far. I have experience working on an Agile team at my old job, and I've been fairly obnoxious about adhering to Agile as much as possible (it's okay, my teammates secretly love me for it, I just know it).
+
+Being a senior (really not a thing) is exciting. Today, I had five back-to-back interviews with recruiters at a speed-dating-type-thing arranged by Prime. On week 12, we're doing it again, with a whole new group of recruiters and potential employers. Also on week 12, we will present our application to a large gathering of potential employers, fellow "Primers," instructors, and lord-knows-who-else at the Nerdery (who Prime is partnered with).
+
+Is it weird that I'm looking forward to all of it? And that I've loved all of it, so far?

@@ -1,0 +1,27 @@
+
+
+.post-list {
+  width: 100%;
+  margin: 10px auto;
+  ul {
+    margin: 0 auto;
+    list-style: none;
+  }
+  li {
+
+  }
+}
+
+.post {
+  padding: 15px;
+  
+  header.post-header {
+    box-shadow: none;
+    background: transparent;
+    border: 0;
+  }
+  .post-content {
+    padding-top: 10px
+  }
+  margin-bottom: 20px;
+}
