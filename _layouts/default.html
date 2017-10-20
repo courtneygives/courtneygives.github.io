@@ -1,13 +1,22 @@
+
 {% include head.html %}
+
 {% include header.html %}
+
+<!-- coffee ring background (top) -->
 <div class='coffee-ring coffee-ring-upper'></div>
+
+<!-- site wrapper & container for site margins and footer stickiness -->
 <div class="site-wrapper container">
-<main>
+
+  <!-- primary content section -->
+  <main>
     {{ content }}
-</main>
+  </main>
 
-{% include recent-posts.html %}
-</div>
+</div> <!-- end site wrapper/container -->
 
+<!-- coffee ring background (bottom) -->
 <div class='coffee-ring coffee-ring-lower'></div>
+
 {% include footer.html %}
