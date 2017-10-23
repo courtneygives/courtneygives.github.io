@@ -1,17 +1,17 @@
 
 // ::::: colors ::::: //
 
-// coolors.co/f7ce5b-ee6c4d-564138-20a39e-297373
-$color1: rgba(247, 206, 91, 1);
-$color2: rgba(150, 100, 69, 1);
-$color3: rgba(94, 63, 50, 1);
-$color4: rgba(32, 163, 158, 1);
-$color5: rgba(41, 115, 115, 1);
+//coolors.co/3d372e-4a616d-a96a3b-d3bd6e-dddddd
+//coolors.co/462e10-38716d-c46d3c-e7c37b-ffffff
+$color1: rgba(70, 46, 16, 1);
+$color2: rgba(56, 113, 109, 1);
+$color3: rgba(196, 109, 60, 1);
+$color4: rgba(231, 195, 123, 1);
 
 $color-white: #fff;
 $color-black: #000;
 
-$shadow: 0px 2px 5px #777;
+$shadow: 0px 2px 5px #7C6951;
 
 
 // ::::: typography ::::: //
@@ -37,17 +37,21 @@ h1 {
   font-family: $font-body;
   color: $color3;
   font-size: 25px;
+  font-weight: bold;
+
 }
 
 h2 {
   font-family: $font-heading;
-  color: $color4;
+  color: $color1;
   font-size: 21px;
+  font-weight: bold;
+
 }
 
 h3 {
   font-family: $font-body;
-  color: $color5;
+  color: $color2;
   font-size: 20px;
   font-weight: bold;
 }
@@ -55,9 +59,9 @@ h3 {
 
 // ::::: links ::::: //
 a {
-  color: $color4;
+  color: $color3;
   &:hover {
-    color: $color5;
+    color: $color2;
     text-decoration: none;
   }
 }

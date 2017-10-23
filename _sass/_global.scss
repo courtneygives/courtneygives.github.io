@@ -2,7 +2,7 @@
 body {
   background: url('/art/ricepaper2.png');
   background-attachment: fixed;
-  color: $color-black;
+  color: $color1;
   font-family: $font-body;
   display: flex;
   flex-direction: column;
@@ -44,13 +44,16 @@ body {
 header {
   padding: 5px;
   margin-bottom: 20px;
-  background-color: $color-white;
-  border-bottom: 2px solid $color5;
+  background-color: $color2;
+  border-bottom: 3px solid $color1;
+
   // box-shadow: $shadow;
   a {
-    color: $color3;
+    color: $color-white;
+    transition: transform 0.5s;
+    padding: 10px;
     &:hover {
-
+      color: $color1;
     }
   }
 }
@@ -60,21 +63,25 @@ header {
   flex: 1;
 }
 .container {
-  max-width: 900px;
+  background: transparentize($color-white, .5);
+  width: 100%;
 }
 
 main {
   margin: 100px 0;
+  max-width: 900px;
   border-radius: 5px;
-  background: transparentize($color-white, .4);
 
 }
 
 footer {
-  border-top: 3px solid $color5;
-  background-color: $color-white;
+  border-top: 3px solid $color4;
+  background-color: $color1;
+  color: $color4;
   padding-top: 15px;
   flex: none;
   width: 100%;
   text-align: center;
+  a {
+  }
 }
