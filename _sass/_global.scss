@@ -1,6 +1,6 @@
 
 body {
-  background: url('/art/ricepaper2.png');
+  background: url('/media/ricepaper2.png');
   background-attachment: fixed;
   color: $color1;
   font-family: $font-body;
@@ -21,7 +21,7 @@ body {
     opacity: .4;
     top: 70px;
     right: 20px;
-    background-image: url('/art/1.png');
+    background-image: url('/media/1.png');
     background-position: right;
     // larger devices:
     @media (min-width: $breakpoint-lg) {
@@ -32,7 +32,7 @@ body {
     opacity: 0;
     bottom: 70px;
     left: 20px;
-    background-image: url('/art/10.png');
+    background-image: url('/media/10.png');
     background-position: left;
     // larger devices:
     @media (min-width: $breakpoint-lg) {
@@ -41,23 +41,41 @@ body {
   }
 }
 
+.landing {
+  height: 700px;
+  width: 100%;
+  background-image: url('/media/desktop1.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  .sheet {
+    background-color: transparentize($color2, .2);
+    height: 100%;
+  }
+  h1 {
+    color: $color-white;
+  }
+  .card {
+    position: absolute;
+    background: transparent;
+  }
+}
+
 header {
   padding: 5px;
   margin-bottom: 20px;
-  background-color: $color2;
-  border-bottom: 3px solid $color1;
 
   // box-shadow: $shadow;
   a {
     color: $color-white;
-    transition: transform 0.5s;
+    text-shadow: 1px 1px 1px $color1;
+    font-weight: bold;
+    font-size: 20px;
     padding: 10px;
     &:hover {
-      color: $color1;
+      color: $color4;
     }
   }
 }
-
 
 .site-wrapper {
   flex: 1;
