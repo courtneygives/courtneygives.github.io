@@ -1,21 +1,29 @@
 
 {% include head.html %}
 
-{% include header.html %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4 side-panel">
 
+
+        {% include side-panel.html %}
+    </div>
+
+
+    <div class="col-lg-8 main-panel">
+      <div class="container">
+
+        <main> <!-- primary content section -->
+          {{ content }}
+        </main>
+      </div>
+
+      {% include recent-posts.html %}
+    </div>
+  </div>
+</div>
 <!-- coffee ring background (top) -->
 <div class='coffee-ring coffee-ring-upper'></div>
-
-<!-- site wrapper & container for site margins and footer stickiness -->
-<div class="site-wrapper container">
-
-  <!-- primary content section -->
-  <main>
-    {{ content }}
-  </main>
-
-</div> <!-- end site wrapper/container -->
-
 <!-- coffee ring background (bottom) -->
 <div class='coffee-ring coffee-ring-lower'></div>
 

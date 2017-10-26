@@ -1,13 +1,11 @@
 
 body {
-  background: url('/media/ricepaper2.png');
-  background-attachment: fixed;
+  background-image: url('/media/ricepaper2.png');
+  background-color: transparentize($color4, .2);
   color: $color1;
   font-family: $font-body;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
+
 
 .coffee-ring {
   position: fixed;
@@ -25,81 +23,18 @@ body {
     background-position: right;
     // larger devices:
     @media (min-width: $breakpoint-lg) {
-      opacity: .8;
+      opacity: .6;
     }
   }
   &-lower {
     opacity: 0;
     bottom: 70px;
-    left: 20px;
+    left: 5%;
     background-image: url('/media/10.png');
     background-position: left;
     // larger devices:
     @media (min-width: $breakpoint-lg) {
-      opacity: .8;
+      opacity: .6;
     }
-  }
-}
-
-.landing {
-  height: 700px;
-  width: 100%;
-  background-image: url('/media/desktop1.JPG');
-  background-size: cover;
-  background-repeat: no-repeat;
-  .sheet {
-    background-color: transparentize($color2, .2);
-    height: 100%;
-  }
-  h1 {
-    color: $color-white;
-  }
-  .card {
-    position: absolute;
-    background: transparent;
-  }
-}
-
-header {
-  padding: 5px;
-  margin-bottom: 20px;
-
-  // box-shadow: $shadow;
-  a {
-    color: $color-white;
-    text-shadow: 1px 1px 1px $color1;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 10px;
-    &:hover {
-      color: $color4;
-    }
-  }
-}
-
-.site-wrapper {
-  flex: 1;
-}
-.container {
-  background: transparentize($color-white, .5);
-  width: 100%;
-}
-
-main {
-  margin: 100px 0;
-  max-width: 900px;
-  border-radius: 5px;
-
-}
-
-footer {
-  border-top: 3px solid $color4;
-  background-color: $color1;
-  color: $color4;
-  padding-top: 15px;
-  flex: none;
-  width: 100%;
-  text-align: center;
-  a {
   }
 }
