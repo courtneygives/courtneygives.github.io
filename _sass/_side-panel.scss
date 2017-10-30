@@ -3,27 +3,19 @@
   background-color: transparentize($color4, .2);
 
   .side-panel-content {
-    margin: 10px auto;
   }
 
   .summary {
-    padding-top: 10px;
     img {
-      display: block;
-      border-radius: 10px;
-      border: 1px solid $color3;
-      margin: 10px 0;
+
     }
 
     .dumb-blurb {
-      margin: 10px auto;
     }
   }
 
   .footer-text {
-    margin: 10px auto;
     p {
-      margin: 2px;
     }
   }
 }
@@ -31,20 +23,15 @@
 // desktop and larger:
 @media (min-width: $breakpoint-lg) {
 .side-panel {
-  min-height: 100%;
 
   .side-panel-content {
-    position: fixed;
-    max-width: 30%;
-    top: 0;
+
     .summary {
 
     }
   }
   .footer-text {
-    position: fixed;
-    max-width: 30%;
-    bottom: 0;
+
   }
 }
 
