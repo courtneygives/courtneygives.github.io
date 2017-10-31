@@ -1,22 +1,28 @@
-<!DOCTYPE html>
-<html>
 
 {% include head.html %}
 
-<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4 side-panel">
+        {% include side-panel.html %}
+    </div>
 
-  {% include header.html %}
 
-  <div class="row-eq-height">
-    {% include sidebar.html %}
+    <div class="col-lg-8 main-panel">
+      <div class="container">
 
-    <div class="col-md-9 default-content">
-      {{ content }}
+        <main> <!-- primary content section -->
+          {{ content }}
+        </main>
+      </div>
+
+      {% include recent-posts.html %}
     </div>
   </div>
+</div>
+<!-- coffee ring background (top) -->
+<div class='coffee-ring coffee-ring-upper'></div>
+<!-- coffee ring background (bottom) -->
+<div class='coffee-ring coffee-ring-lower'></div>
 
-  {% include footer.html %}
-
-</body>
-
-</html>
+{% include footer.html %}

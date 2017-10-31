@@ -10,6 +10,6 @@ Over the July 4th weekend, [my husband](http://alex.ives.mn) and I built an Andr
 
 It's a score-keeping app, specifically for the card game [Star Realms](http://www.starrealms.com/), a fairly simple deck building game we like to play.
 
-![](/images/sc-2player.png){: width="200px"}
-![](/images/sc-4player.png){: width="200px"}
-![](/images/sc-settings.png){: width="200px"}
+![](/media/sc-2player.png){: width="200px"}
+![](/media/sc-4player.png){: width="200px"}
+![](/media/sc-settings.png){: width="200px"}

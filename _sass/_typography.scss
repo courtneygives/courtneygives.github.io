@@ -1,0 +1,57 @@
+// ::::: typography ::::: //
+
+@font-face {
+  font-family: 'Raleway';
+  src:  url('/fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Anton';
+  src: url('/fonts/Anton-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'ShadowsIntoLight';
+  src: url('/fonts/ShadowsIntoLight.ttf');
+}
+
+$font-body: 'Raleway', sans-serif;
+$font-heading: 'Anton', Arial;
+$font-fancy: 'ShadowsIntoLight', cursive;
+
+p {
+  font-size: 14px;
+}
+
+h1 {
+  font-family: $font-body;
+  color: $color3;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+h2 {
+  font-family: $font-heading;
+  color: $color1;
+  font-size: 21px;
+  font-weight: bold;
+
+}
+
+h3 {
+  font-family: $font-body;
+  color: $color2;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+// ::::: links ::::: //
+a {
+  color: $color3;
+  &:hover {
+    color: $color2;
+    text-decoration: none;
+  }
+}

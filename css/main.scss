@@ -1,0 +1,17 @@
+---
+---
+// this ensures Jekyll reads the file to be transformed into CSS later
+// only Main files contain this front matter, not partials.
+
+@import 'breakpoints.scss';
+@import 'variables.scss';
+@import 'typography.scss';
+
+@import 'global.scss';
+@import 'side-panel.scss';
+@import 'main-panel.scss';
+
+@import 'resume.scss';
+@import 'blog.scss';
+@import '404.scss';
+@import 'landing.scss';

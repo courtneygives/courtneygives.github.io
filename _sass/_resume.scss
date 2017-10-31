@@ -1,0 +1,23 @@
+.resume {
+  padding: 15px;
+
+  .job-title {
+    font-family: $font-body;
+    margin-top: 20px;
+  }
+
+  .job-info {
+    font-family: $font-body;
+    padding-left: 30px;
+  }
+
+  .job-desc {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .resume-section {
+    font-family: $font-heading;
+    padding-top: 20px;
+  }
+}

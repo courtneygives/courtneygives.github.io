@@ -1,0 +1,39 @@
+
+.side-panel {
+  background-color: transparentize($color4, .2);
+
+  .side-panel-content {
+  }
+
+  .summary {
+    img {
+
+    }
+
+    .dumb-blurb {
+    }
+  }
+
+  .footer-text {
+    p {
+    }
+  }
+}
+
+// desktop and larger:
+@media (min-width: $breakpoint-lg) {
+.side-panel {
+
+  .side-panel-content {
+
+    .summary {
+
+    }
+  }
+  .footer-text {
+
+  }
+}
+
+
+}
