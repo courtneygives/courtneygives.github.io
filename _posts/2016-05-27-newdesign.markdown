@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "New Site Design Coming [updated]"
 date:   2016-05-26
 categories: updates

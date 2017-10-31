@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Speech Signal Redundancy"
 date:   2015-01-12 16:00:34
 categories: language

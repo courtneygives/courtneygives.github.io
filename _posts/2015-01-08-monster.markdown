@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "The Monster Study"
 date:   2015-01-08 14:00:34
 categories: language

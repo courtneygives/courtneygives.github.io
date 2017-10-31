@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Creating an Android App"
 date:   2016-07-10
 categories: portfolio
