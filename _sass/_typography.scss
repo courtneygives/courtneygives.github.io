@@ -20,38 +20,43 @@ $font-heading: 'Anton', Arial;
 $font-fancy: 'ShadowsIntoLight', cursive;
 
 p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 h1 {
-  font-family: $font-body;
-  color: $color3;
+  font-family: $font-heading;
+  color: $color4-light;
+  font-size: 27px;
+}
+
+h2 {
+  font-family: $font-fancy;
+  color: $color4;
   font-size: 25px;
   font-weight: bold;
 
 }
 
-h2 {
+h3 {
   font-family: $font-heading;
-  color: $color1;
-  font-size: 21px;
-  font-weight: bold;
-
+  color: $color5;
+  font-size: 20px;
 }
 
-h3 {
-  font-family: $font-body;
-  color: $color2;
-  font-size: 20px;
+h4 {
+  font-family: $font-fancy;
+  color: $color3;
+  font-size: 19px;
   font-weight: bold;
 }
 
 
 // ::::: links ::::: //
 a {
-  color: $color3;
+  color: $color5;
   &:hover {
-    color: $color2;
+    color: $color5-dark;
+    font-weight: bold;
     text-decoration: none;
   }
 }

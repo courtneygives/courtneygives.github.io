@@ -1,9 +1,9 @@
 
 body {
-  background-image: url('/media/ricepaper2.png');
-  background-color: transparentize($color4, .2);
-  color: $color1;
+  background-color: $color-gray-light;
+  color: $color-black;
   font-family: $font-body;
+
 }
 
 .coffee-ring {
@@ -14,26 +14,24 @@ body {
   height: 250px;
   width: 100%;
   transition: all .5s;
-  &-upper {
-    opacity: .4;
-    top: 70px;
-    right: 20px;
-    background-image: url('/media/1.png');
-    background-position: right;
-    // larger devices:
-    @media (min-width: $breakpoint-lg) {
-      opacity: .6;
-    }
-  }
   &-lower {
-    opacity: 0;
-    bottom: 70px;
-    left: 5%;
-    background-image: url('/media/10.png');
+    opacity: .6;
+    bottom: 5%;
+    left: -1%;
+    background-image: url('/media/1.png');
     background-position: left;
-    // larger devices:
-    @media (min-width: $breakpoint-lg) {
-      opacity: .6;
-    }
+  }
+}
+
+footer {
+  color: $color-gray-black;
+  text-align: center;
+
+@media (min-width: $breakpoint-lg) {
+  position: fixed;
+  bottom: 10px;
+  left: 5px;
+  width: 32%;
+  max-width: none;
   }
 }

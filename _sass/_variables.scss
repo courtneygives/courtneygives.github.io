@@ -1,14 +1,33 @@
 
 // ::::: colors ::::: //
 
-//coolors.co/3d372e-4a616d-a96a3b-d3bd6e-dddddd
-//coolors.co/462e10-38716d-c46d3c-e7c37b-ffffff
-$color1: rgba(70, 46, 16, 1);
-$color2: rgba(56, 113, 109, 1);
-$color3: rgba(196, 109, 60, 1);
-$color4: rgba(231, 195, 123, 1);
+$color-gray-transparent: rgba(255, 255, 255, 0.5);
+$color-gray-light: rgba(236, 237, 240, 1);
+$color-gray-medium: rgba(200, 200, 200, 1);
+$color-gray-dark: rgba(70, 70, 70, 1);
+$color-gray-black: rgba(37, 36, 35, 1);
+
+$color1: rgba(233, 196, 106, 1);
+$color2: rgba(143, 193, 150, 1);
+$color3: rgba(231, 111, 81, 1);
+$color4: rgba(45, 84, 99, 1);
+$color5: rgba(112, 93, 127, 1);
+
+$color1-dark: darken($color1, 30%);
+$color2-dark: darken($color2, 30%);
+$color3-dark: darken($color3, 30%);
+$color4-dark: darken($color4, 10%);
+$color5-dark: darken($color5, 20%);
+
+$color1-light: lighten($color1, 10%);
+$color2-light: lighten($color2, 10%);
+$color3-light: lighten($color3, 10%);
+$color4-light: lighten($color4, 15%);
+$color5-light: lighten($color5, 10%);
+
 
 $color-white: #fff;
 $color-black: #000;
 
-$shadow: 0px 2px 5px #7C6951;
+$shadow: 0px 2px 5px $color-gray-dark;
+$text-shadow: 1px 1px 1px $color-gray-dark;
