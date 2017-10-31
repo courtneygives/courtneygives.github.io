@@ -1,12 +1,10 @@
 
 
 .post-list {
-  margin: 10px auto;
-  padding: 15px;
   h3 {
   }
   ul {
-  
+
   }
   li {
 
@@ -14,7 +12,6 @@
 }
 
 .post {
-  padding: 15px;
 
   header.post-header {
     box-shadow: none;
@@ -22,7 +19,5 @@
     border: 0;
   }
   .post-content {
-    padding-top: 10px
   }
-  margin-bottom: 20px;
 }

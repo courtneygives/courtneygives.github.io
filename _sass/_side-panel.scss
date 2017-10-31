@@ -1,39 +1,57 @@
 
 .side-panel {
-  background-color: transparentize($color4, .2);
-
+  color: $color-gray-black;
   .side-panel-content {
+    margin-top: 50px;
+    position: relative;
+  }
+
+  a {
+    color: $color-gray-dark;
+    &:hover {
+      color: $color1;
+    }
+  }
+  h1 {
+    color: $color1;
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+    color: $color5-dark;
+    text-align: center;
+  }
+  nav {
+    display: none;
+    a {
+      font-size: 20px;
+      color: $color5-dark;
+      font-family: $font-heading;
+      &:hover {
+        color: $color2-light;
+        font-weight: normal;
+      }
+    }
   }
 
   .summary {
+    text-align: center;
     img {
-
-    }
-
-    .dumb-blurb {
+      border-radius: 50%;
+      border: 1px solid $color5-dark;
     }
   }
 
-  .footer-text {
-    p {
-    }
-  }
 }
 
 // desktop and larger:
 @media (min-width: $breakpoint-lg) {
-.side-panel {
-
-  .side-panel-content {
-
-    .summary {
-
+  .side-panel {
+    .side-panel-content {
+      position: fixed;
+      top: 10px;
+      left: 5px;
+      width: 32%;
     }
   }
-  .footer-text {
-
-  }
-}
-
-
 }

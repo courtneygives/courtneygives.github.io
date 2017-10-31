@@ -1,23 +1,24 @@
 .resume {
-  padding: 15px;
 
   .job-title {
-    font-family: $font-body;
+    font-family: $font-heading;
     margin-top: 20px;
+    color: $color4-light;
   }
 
   .job-info {
-    font-family: $font-body;
-    padding-left: 30px;
+    font-family: $font-fancy;
+    color: $color4;
   }
 
   .job-desc {
-    padding-left: 30px;
-    padding-right: 30px;
+
   }
 
   .resume-section {
     font-family: $font-heading;
+    font-size: 30px;
     padding-top: 20px;
+    color: $color4;
   }
 }
