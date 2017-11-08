@@ -1,6 +1,7 @@
 
 .side-panel {
   color: $color-gray-black;
+
   .side-panel-content {
     margin-top: 50px;
     position: relative;
@@ -8,25 +9,29 @@
 
   a {
     color: $color-gray-dark;
+
     &:hover {
       color: $color1;
     }
   }
+
   h1 {
     color: $color1;
     font-size: 35px;
   }
+
   h2 {
-    font-size: 30px;
     color: $color5-dark;
+    font-size: 30px;
     text-align: center;
   }
+
   nav {
-    display: none;
     a {
-      font-size: 20px;
       color: $color5-dark;
       font-family: $font-heading;
+      font-size: 20px;
+
       &:hover {
         color: $color2-light;
         font-weight: normal;
@@ -36,17 +41,33 @@
 
   .summary {
     text-align: center;
+
     img {
-      border-radius: 50%;
+      display: block;
       border: 1px solid $color5-dark;
+      border-radius: 50%;
+      margin: 0 auto;
     }
   }
 
   .contact {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 0;
 
-  }
-  .post-list {
-  
+    li {
+      display: inline;
+      list-style: none;
+      padding: 10px;
+
+      a {
+        font-size: 30px;
+
+        &:hover {
+          color: $color2;
+        }
+      }
+    }
   }
 }
 
@@ -54,9 +75,9 @@
 @media (min-width: $breakpoint-lg) {
   .side-panel {
     .side-panel-content {
+      left: 5px;
       position: fixed;
       top: 10px;
-      left: 5px;
       width: 32%;
     }
   }

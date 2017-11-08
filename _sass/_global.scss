@@ -7,25 +7,33 @@ body {
 }
 
 .coffee-ring {
-  position: fixed;
-  z-index: -100;
   background-repeat: no-repeat;
   background-size: contain;
   height: 250px;
+  position: absolute;
   width: 100%;
-  transition: all .5s;
+  z-index: -100;
+
+  &-upper {
+    opacity: .6;
+    background-image: url('/media/10.png');
+    right: 10px;
+    bottom: -150px;
+  }
+
   &-lower {
     opacity: .6;
-    bottom: 5%;
-    left: -1%;
     background-image: url('/media/1.png');
-    background-position: left;
+    background-position: right;
+    right: 20px;
+    bottom: 100px;
   }
 }
 
 footer {
   color: $color-gray-black;
   text-align: center;
+  padding: 5px;
 
 @media (min-width: $breakpoint-lg) {
   position: fixed;
