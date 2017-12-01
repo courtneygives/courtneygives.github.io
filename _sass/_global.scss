@@ -15,18 +15,18 @@ body {
   z-index: -100;
 
   &-upper {
-    opacity: .6;
+    opacity: .7;
     background-image: url('/media/10.png');
-    right: 10px;
-    bottom: -150px;
+    right: 0px;
+    top: -50px;
   }
 
   &-lower {
-    opacity: .6;
+    opacity: .7;
     background-image: url('/media/1.png');
     background-position: right;
     right: 20px;
-    bottom: 100px;
+    bottom: 200px;
   }
 }
 
