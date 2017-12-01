@@ -13,11 +13,9 @@
 
   .job-desc {
     p {
-      margin: 7px 0;
+      margin: 10px 0;
       line-height: 1.1;
-      &:before {
-        content: "• "
-      }
+
     }
   }
 
