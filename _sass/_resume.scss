@@ -12,11 +12,10 @@
   }
 
   .job-desc {
-    p {
-      margin: 10px 0;
-      line-height: 1.1;
-
-    }
+      li {
+          list-style: square;
+          margin-left: 2em;
+      }
   }
 
   .resume-section {
