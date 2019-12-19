@@ -242,13 +242,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ffi (>= 1.9.24)
   github-pages
-  jekyll (>= 3.6.3)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
-  nokogiri (>= 1.8.5)
   tzinfo-data
 
 BUNDLED WITH
-   1.17.1
+   1.17.2
