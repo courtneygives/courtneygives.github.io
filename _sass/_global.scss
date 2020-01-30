@@ -1,44 +1,44 @@
 
 body {
-    background-color: $color-gray-light;
-    color: $color-black;
-    font-family: $font-body;
+  background-color: $color-gray-light;
+  color: $color-black;
+  font-family: $font-body;
 }
 
 .coffee-ring {
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 250px;
-    position: absolute;
-    width: 100%;
-    z-index: -100;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 250px;
+  opacity: .6;
+  position: absolute;
+  width: 100%;
+  z-index: -100;
 
-    &-upper {
-        opacity: .7;
-        background-image: url('/media/10.png');
-        right: 0px;
-        top: -50px;
-    }
+  &-upper {
+    background-image: url('/media/10.png');
+    background-position: left;
+    right: 20px;
+    top: -65px;
+  }
 
-    &-lower {
-        opacity: .7;
-        background-image: url("/media/1.png");
-        background-position: right;
-        right: 40px;
-        top: 35%;
-    }
+  &-lower {
+    background-image: url("/media/1.png");
+    background-position: right;
+    right: 40px;
+    top: 25%;
+  }
 }
 
 footer {
-    color: $color-gray-black;
-    text-align: center;
-    padding: 5px;
+  color: $color-gray-black;
+  text-align: center;
+  padding: 5px;
 
-    @media (min-width: $breakpoint-lg) {
-        position: fixed;
-        bottom: 10px;
-        left: 5px;
-        width: 32%;
-        max-width: none;
-    }
+  @media (min-width: $breakpoint-lg) {
+    position: fixed;
+    bottom: 10px;
+    left: 5px;
+    width: 32%;
+    max-width: none;
+  }
 }
