@@ -1,5 +1,10 @@
 ---
 layout: default
+title: Blog
 ---
 
-{%include recent-posts.html %}
+<h3>Who Reads Anymore?</h3>
+  {% for post in site.posts %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <p>{{ post.date | date: '%B, %Y' }}<p>
+  {% endfor %}

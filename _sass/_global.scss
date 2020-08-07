@@ -5,6 +5,14 @@ body {
   font-family: $font-body;
 }
 
+.page-title {
+  color: $color5-light;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: $font-fancy;
+  margin-bottom: 45px;
+}
+
 .coffee-ring {
   background-repeat: no-repeat;
   background-size: contain;
@@ -14,14 +22,14 @@ body {
   width: 100%;
   z-index: -100;
 
-  &-upper {
+  &-one {
     background-image: url('/media/10.png');
     background-position: left;
     right: 20px;
     top: -65px;
   }
 
-  &-lower {
+  &-two {
     background-image: url("/media/1.png");
     background-position: right;
     right: 40px;
@@ -30,9 +38,10 @@ body {
 }
 
 footer {
+  background-color: $color-white;
   color: $color-gray-black;
   text-align: center;
-  padding: 5px;
+  padding: 25px 5px;
 
   @media (min-width: $breakpoint-lg) {
     position: fixed;

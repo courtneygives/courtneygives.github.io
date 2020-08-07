@@ -7,11 +7,12 @@
         {% include side-panel.html %}
     </div>
 
-
     <div class="col-lg-8 main-panel">
       <div class="container">
 
         <main> <!-- primary content section -->
+          <h1 class="page-title">{{ page.title }}</h1>
+
           {{ content }}
         </main>
       </div>
@@ -19,7 +20,5 @@
     </div>
   </div>
 </div>
-
-
 
 {% include footer.html %}
