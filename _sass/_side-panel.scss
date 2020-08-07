@@ -1,52 +1,48 @@
 
 .side-panel {
   color: $color-gray-black;
+  background-color: $color-white;
 
   .side-panel-content {
     margin-top: 50px;
     position: relative;
-  }
-
-  a {
-    color: $color-gray-dark;
-
-    &:hover {
-      color: $color1;
-    }
-  }
-
-  h1 {
-    color: $color1;
-    font-size: 35px;
-  }
-
-  h2 {
-    color: $color5-dark;
-    font-size: 30px;
     text-align: center;
   }
 
-  nav {
+  li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    margin: unset;
+  }
+
+  .site-header {
+    text-align: center;
+
     a {
-      color: $color5-dark;
-      font-family: $font-heading;
-      font-size: 20px;
+      color: $color-gray-dark;
 
       &:hover {
-        color: $color2-light;
-        font-weight: normal;
+        color: $color1;
       }
     }
-  }
 
-  .summary {
-    text-align: center;
+    .site-name {
+      color: $color1;
+      font-size: 35px;
+    }
+
+    .dumb-titles {
+      color: $color5-dark;
+      font-size: 30px;
+      text-align: center;
+    }
 
     img {
       display: block;
       border: 1px solid $color5-dark;
       border-radius: 50%;
-      margin: 0 auto;
+      margin: 20px auto;
     }
   }
 
@@ -55,17 +51,31 @@
     margin: 10px auto;
     padding: 0;
 
-    li {
-      display: inline;
-      list-style: none;
-      padding: 10px;
+    li > a {
+      font-size: 30px;
 
-      a {
-        font-size: 30px;
+      &:hover {
+        color: $color2;
+      }
+    }
+  }
 
-        &:hover {
-          color: $color2;
-        }
+  nav {
+    ul {
+      display: inline-block;
+      margin: 10px auto;
+      padding: 0;
+    }
+
+    a {
+      color: $color5-dark;
+      font-family: $font-heading;
+      font-size: 20px;
+
+      &:hover {
+        color: $color3;
+        font-weight: normal;
+        text-decoration: none;
       }
     }
   }

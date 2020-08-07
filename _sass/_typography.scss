@@ -25,31 +25,39 @@ p {
 
 h1 {
   font-family: $font-heading;
-  color: $color4-light;
-  font-size: 27px;
+  font-size: 33px;
+  padding-top: 20px;
+  color: $color4;
 }
 
 h2 {
-  font-family: $font-fancy;
-  color: $color4;
+  font-family: $font-heading;
   font-size: 25px;
-  font-weight: bold;
-
+  margin-top: 1.6rem;
+  color: $color4-light;
 }
 
 h3 {
-  font-family: $font-heading;
-  color: $color5;
+  font-family: $font-fancy;
+  color: $color4;
   font-size: 20px;
+  font-weight: bold;
 }
 
 h4 {
   font-family: $font-fancy;
-  color: $color3;
+  color: $color5;
   font-size: 19px;
   font-weight: bold;
 }
 
+li {
+  list-style: square;
+  margin-left: 2em;
+  &::marker {
+    color: $color4-light;
+  }
+}
 
 // ::::: links ::::: //
 a {
