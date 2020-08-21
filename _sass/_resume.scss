@@ -3,4 +3,15 @@
   .section {
     margin: 20px 0;
   }
+  .agency-section {
+  }
+  .agency-roles {
+    padding-left: 25px;
+    h2 {
+      color: $color-secondary;
+      display: block;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  }
 }

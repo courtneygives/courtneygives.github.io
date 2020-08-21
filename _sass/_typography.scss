@@ -10,60 +10,55 @@
   src: url('/fonts/Anton-Regular.ttf');
 }
 
-@font-face {
-  font-family: 'ShadowsIntoLight';
-  src: url('/fonts/ShadowsIntoLight.ttf');
-}
-
 $font-body: 'Raleway', sans-serif;
 $font-heading: 'Anton', Arial;
-$font-fancy: 'ShadowsIntoLight', cursive;
 
 p {
   font-size: 16px;
+  font-family: $font-body;
+  margin: 5px 0;
 }
 
 h1 {
   font-family: $font-heading;
-  font-size: 33px;
-  padding-top: 20px;
-  color: $color4;
+  font-size: 36px;
+  margin-top: 30px;
+  color: $color-secondary;
 }
 
 h2 {
   font-family: $font-heading;
   font-size: 25px;
-  margin-top: 1.6rem;
-  color: $color4-light;
+  margin-top: 30px;
+  color: $color-primary;
 }
 
 h3 {
-  font-family: $font-fancy;
-  color: $color4;
-  font-size: 20px;
+  font-family: $font-body;
+  color: $color-tertiary;
+  font-size: 17px;
   font-weight: bold;
 }
 
 h4 {
-  font-family: $font-fancy;
-  color: $color5;
+  font-family: $font-heading;
+  color: $color-secondary;
   font-size: 19px;
-  font-weight: bold;
 }
 
 li {
   list-style: square;
-  margin-left: 2em;
+  margin-left: 40px;
   &::marker {
-    color: $color4-light;
+    color: $color-secondary;
   }
 }
 
 // ::::: links ::::: //
 a {
-  color: $color5;
+  color: $color-secondary;
   &:hover {
-    color: $color5-dark;
+    color: $color-tertiary;
     text-decoration: underline;
   }
 }

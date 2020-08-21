@@ -1,16 +1,7 @@
 
 body {
-  background-color: $color-gray-light;
   color: $color-black;
   font-family: $font-body;
-}
-
-.page-title {
-  color: $color5-light;
-  font-size: 45px;
-  font-weight: bold;
-  font-family: $font-fancy;
-  margin-bottom: 45px;
 }
 
 .coffee-ring {
@@ -38,7 +29,7 @@ body {
 }
 
 footer {
-  background-color: $color-white;
+  background-color: $color-gray-light;
   color: $color-gray-black;
   text-align: center;
   padding: 25px 5px;
