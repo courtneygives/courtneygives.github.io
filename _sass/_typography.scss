@@ -19,12 +19,6 @@ p {
   margin: 5px 0;
 }
 
-p.list-like {
-  &::before {
-    content: " - ";
-  }
-}
-
 h1 {
   font-family: $font-heading;
   font-size: 36px;
