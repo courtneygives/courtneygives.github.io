@@ -1,29 +1,5 @@
 
 .resume {
-  p {
-    margin: 5px 0 0 15px;
-  }
-  h1 {
-    color: $color4;
-    font-family: $font-fancy;
-    font-weight: bold;
-    font-size: 40px;
-  }
-  h2 {
-    color: $color4-light;
-    display: inline-block;
-    margin-top: 20px;
-  }
-  h3 {
-    color: $color4;
-    display: inline-block;
-    font-family: $font-heading;
-    font-size: 20px;
-    margin-left: 10px;
-  }
-  h4 {
-    color: $color4-dark;
-  }
   .section {
     margin: 20px 0;
   }
@@ -32,10 +8,10 @@
   .agency-roles {
     padding-left: 25px;
     h2 {
-      color: $color4;
+      color: $color-secondary;
       display: block;
       font-size: 20px;
-      margin-top: 12px;
+      margin-top: 20px;
     }
   }
 }

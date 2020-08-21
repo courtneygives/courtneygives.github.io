@@ -1,9 +1,0 @@
----
-layout: default
-title: Foster Dogs
----
-
-{% for post in site.categories.fosters | %}
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <p>{{ post.date | date: '%B, %Y' }}<p>
-  {% endfor %}
